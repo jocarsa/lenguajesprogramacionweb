@@ -1,0 +1,7 @@
+body{
+    background:rgb(220,220,220);
+}
+header,main,footer{
+    background:white;
+    width:800px;
+}

@@ -1,0 +1,40 @@
+body{
+    background:rgb(220,220,220);
+}
+header,main,footer{
+    background:white;
+    width:800px;
+    margin:auto;
+    padding:20px;
+    font-family:sans-serif;
+}
+#logo,#corporativo{
+    float:left;
+    background:rgb(50,50,50);
+    color:rgb(220,220,220);
+    height:200px;
+}
+#logo{
+    width:25% 
+}
+#logo img{
+    width:100%;
+}
+#corporativo{
+    width:75%;
+}
+h1,h2{
+    font-size:20px;
+}
+.clearfix{
+    clear:both;
+}
+nav,#contenido{
+    float:left;
+}
+nav{
+    width:25%;
+}
+#contenido{
+    width:75%;
+}
