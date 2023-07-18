@@ -1,0 +1,29 @@
+En HTML, las cabeceras o encabezados se definen mediante las etiquetas de `<h1>` a `<h6>`. Estas etiquetas se utilizan para estructurar y jerarquizar el contenido de una página web, y se usan para mostrar títulos y subtítulos.
+
+La jerarquía de las etiquetas de encabezado es la siguiente:
+
+- `<h1>`: El título principal de mayor tamaño y jerarquía.
+- `<h2>`: Un subtítulo que tiene un tamaño menor que `<h1>` pero mayor que `<h3>`.
+- `<h3>`: Un subtítulo que tiene un tamaño menor que `<h2>` pero mayor que `<h4>`.
+- `<h4>`: Un subtítulo que tiene un tamaño menor que `<h3>` pero mayor que `<h5>`.
+- `<h5>`: Un subtítulo que tiene un tamaño menor que `<h4>` pero mayor que `<h6>`.
+- `<h6>`: El subtítulo de menor tamaño y jerarquía.
+
+La sintaxis básica para utilizar las etiquetas de encabezado es la siguiente:
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Título de la página</title>
+</head>
+<body>
+    <h1>Encabezado de nivel 1</h1>
+    <h2>Encabezado de nivel 2</h2>
+    <h3>Encabezado de nivel 3</h3>
+    <!-- Y así sucesivamente hasta <h6> -->
+</body>
+</html>
+```
+
+Es importante utilizar las etiquetas de encabezado de manera apropiada para proporcionar una estructura clara y coherente al contenido de la página. Los motores de búsqueda y las herramientas de accesibilidad también utilizan las etiquetas de encabezado para comprender la jerarquía y la importancia del contenido en una página web. Por lo tanto, es recomendable utilizar `<h1>` para el título principal de la página y luego seguir una jerarquía lógica y coherente en los niveles de encabezado para títulos y subtítulos.

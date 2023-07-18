@@ -1,0 +1,55 @@
+En HTML, se pueden aplicar estilos a los elementos utilizando CSS (Cascading Style Sheets), que es un lenguaje de estilo utilizado para controlar la presentación y el diseño de una página web. Hay varias formas de aplicar estilos CSS a un documento HTML:
+
+1. **CSS en línea:** Puedes aplicar estilos directamente a un elemento HTML utilizando el atributo `style`. Por ejemplo:
+
+```html
+<p style="color: blue; font-size: 18px;">Este es un párrafo con estilo en línea.</p>
+```
+
+2. **CSS embebido:** Puedes incluir estilos CSS dentro de la etiqueta `<style>` en el encabezado del documento o en el cuerpo del documento. Los estilos se aplicarán a todos los elementos que coincidan con las reglas CSS definidas dentro de la etiqueta `<style>`. Por ejemplo:
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ejemplo de CSS embebido</title>
+  <style>
+    p {
+      color: blue;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+  <p>Este es un párrafo con estilo embebido.</p>
+</body>
+</html>
+```
+
+3. **CSS externo:** Puedes crear un archivo externo con extensión `.css` que contenga las reglas de estilo y luego enlazarlo con el documento HTML utilizando la etiqueta `<link>` en el encabezado del documento. Esto permite mantener el código HTML separado de los estilos y facilita la reutilización de los estilos en varias páginas. Por ejemplo:
+
+En un archivo `estilos.css`:
+
+```css
+p {
+  color: blue;
+  font-size: 18px;
+}
+```
+
+En el documento HTML:
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ejemplo de CSS externo</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <p>Este es un párrafo con estilo externo.</p>
+</body>
+</html>
+```
+
+El uso de estilos CSS en HTML permite controlar la apariencia y el diseño de la página, lo que mejora la presentación y la experiencia del usuario. Además, el enfoque de CSS externo es el más recomendado, ya que promueve la separación de la estructura HTML y la presentación visual, lo que facilita el mantenimiento y la escalabilidad del sitio web.

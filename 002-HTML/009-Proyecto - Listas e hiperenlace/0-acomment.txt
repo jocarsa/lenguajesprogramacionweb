@@ -1,0 +1,77 @@
+En HTML, existen tres tipos principales de listas: listas ordenadas (`<ol>`), listas desordenadas (`<ul>`) y listas de definición (`<dl>`). Estas etiquetas se utilizan para organizar y mostrar información en forma de listas, ya sea con números, viñetas o términos y definiciones.
+
+1. Lista ordenada (`<ol>`):
+La etiqueta `<ol>` se utiliza para crear una lista ordenada, donde cada ítem se muestra con un número o una letra. Por defecto, los ítems se enumeran con números (1, 2, 3, etc.), pero puedes modificar este comportamiento con el atributo `type` para usar letras (`A`, `B`, `C`, etc.) o números romanos (`I`, `II`, `III`, etc.).
+
+```html
+<ol>
+  <li>Primer ítem</li>
+  <li>Segundo ítem</li>
+  <li>Tercer ítem</li>
+</ol>
+```
+
+2. Lista desordenada (`<ul>`):
+La etiqueta `<ul>` se utiliza para crear una lista desordenada, donde cada ítem se muestra con viñetas o puntos. No importa el orden en que se escriban los ítems en el código, ya que en la presentación, aparecerán en el orden en que fueron escritos.
+
+```html
+<ul>
+  <li>Elemento 1</li>
+  <li>Elemento 2</li>
+  <li>Elemento 3</li>
+</ul>
+```
+
+3. Lista de definición (`<dl>`):
+La etiqueta `<dl>` se utiliza para crear una lista de definición, donde cada ítem consta de un término (`<dt>`) y su definición (`<dd>`). Este tipo de lista es útil para mostrar un glosario o una lista de términos y sus significados.
+
+```html
+<dl>
+  <dt>Término 1</dt>
+  <dd>Definición del término 1.</dd>
+  <dt>Término 2</dt>
+  <dd>Definición del término 2.</dd>
+</dl>
+```
+
+En estos ejemplos, se muestran las diferentes etiquetas para crear listas en HTML. Puedes combinarlos y anidarlos según sea necesario para organizar el contenido de tu página web de manera adecuada. El uso apropiado de listas ayuda a mejorar la estructura y accesibilidad de tu sitio web.
+
+
+Los hiperenlaces en HTML se crean utilizando la etiqueta `<a>`, que representa un enlace o ancla que permite a los usuarios navegar hacia otra página web, un archivo, un recurso en línea o una ubicación específica dentro de la misma página (anclaje interno).
+
+La sintaxis básica de la etiqueta `<a>` es la siguiente:
+
+```html
+<a href="url_del_destino">Texto del enlace</a>
+```
+
+Explicación de los atributos utilizados:
+
+- `href`: Es el atributo obligatorio que especifica la dirección o URL del destino del enlace. Puede ser una dirección URL absoluta (por ejemplo, `https://www.ejemplo.com/`) o una ruta relativa al archivo o recurso en tu sitio web (por ejemplo, `pagina.html` o `carpeta/archivo.pdf`).
+
+- `Texto del enlace`: Es el contenido visible del enlace que los usuarios verán en la página web. Por ejemplo, "Haz clic aquí" o "Visitar sitio web".
+
+Ejemplo de enlace a otra página web:
+
+```html
+<a href="https://www.ejemplo.com/">Visitar sitio web</a>
+```
+
+Ejemplo de enlace a un archivo dentro del sitio web:
+
+```html
+<a href="documentos/informacion.pdf">Descargar información</a>
+```
+
+Ejemplo de enlace a una sección específica dentro de la misma página (anclaje interno):
+
+```html
+<a href="#seccion">Ir a la sección</a>
+...
+<h2 id="seccion">Esta es la sección</h2>
+<p>Contenido de la sección.</p>
+```
+
+En este último ejemplo, la etiqueta `<a>` tiene como destino el anclaje `#seccion`, que está representado por el elemento `<h2>` con el atributo `id="seccion"`. Al hacer clic en el enlace, el navegador se desplazará hacia la sección que tiene el identificador `seccion`.
+
+Los hiperenlaces son fundamentales para la navegación en la web y permiten a los usuarios acceder a diferentes recursos y páginas con facilidad. Es importante asegurarse de que los enlaces sean claros, descriptivos y relevantes para el contenido que se está enlazando. Además, los enlaces deben ser accesibles para usuarios con discapacidades, por lo que es buena práctica incluir el atributo `title` para proporcionar información adicional sobre el enlace cuando el usuario pase el cursor sobre él.

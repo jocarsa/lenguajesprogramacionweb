@@ -1,0 +1,27 @@
+HTML5 introdujo varias etiquetas nuevas para proporcionar una mejor estructura y semántica en la creación de páginas web. Algunas de las etiquetas más importantes y ampliamente utilizadas introducidas en HTML5 son las siguientes:
+
+1. `<header>`: Define la cabecera de una sección o el encabezado de la página web. Generalmente, se utiliza para elementos como logotipos, títulos principales o barras de navegación.
+
+2. `<nav>`: Se utiliza para definir una sección de navegación, como un menú o una lista de enlaces de navegación.
+
+3. `<section>`: Representa una sección de contenido temáticamente relacionado dentro de un documento. Puede contener títulos (`<h1>`-`<h6>`), párrafos, imágenes y otros elementos.
+
+4. `<article>`: Se utiliza para definir un contenido independiente y autónomo que puede existir por sí solo, como una entrada de blog, una noticia o un artículo.
+
+5. `<aside>`: Define un contenido relacionado o complementario al contenido principal de la página. Se utiliza comúnmente para barras laterales, widgets o anuncios.
+
+6. `<main>`: Representa el contenido principal de la página. Debería haber solo un elemento `<main>` en todo el documento y se utiliza para envolver el contenido central de la página.
+
+7. `<footer>`: Define el pie de página de una sección o el pie de página de la página web. Suele contener información de contacto, enlaces legales, derechos de autor, etc.
+
+8. `<figure>` y `<figcaption>`: `<figure>` se utiliza para agrupar contenido multimedia, como imágenes, audio, video, etc., mientras que `<figcaption>` se utiliza para proporcionar una leyenda o descripción del contenido agrupado en `<figure>`.
+
+9. `<video>` y `<audio>`: Estas etiquetas permiten insertar y reproducir contenido de video y audio directamente en la página, respectivamente.
+
+10. `<canvas>`: Se utiliza para crear gráficos y animaciones mediante JavaScript utilizando el API Canvas.
+
+11. `<details>` y `<summary>`: `<details>` se utiliza para crear elementos desplegables que muestran u ocultan contenido adicional. `<summary>` se coloca dentro de `<details>` y proporciona el texto del encabezado del elemento desplegable.
+
+12. `<datalist>` y `<option>`: `<datalist>` se utiliza para definir una lista de opciones para un elemento `<input>` de tipo "text". Cada opción se define con la etiqueta `<option>`.
+
+Estas son solo algunas de las etiquetas nuevas que HTML5 introdujo para proporcionar una mejor semántica y estructura en el desarrollo de páginas web. Su uso adecuado ayuda a crear sitios web más accesibles, más legibles y más fáciles de mantener.

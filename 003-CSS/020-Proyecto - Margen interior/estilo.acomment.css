@@ -1,0 +1,7 @@
+El código que has proporcionado incluye una nueva adición en comparación con el código anterior. Aquí está la explicación de la nueva adición:
+
+- `padding: 20px;`: Se ha añadido la propiedad `padding` con el valor `20px` a los elementos `<header>`, `<main>` y `<footer>`. Esta propiedad se utiliza para establecer el espacio de relleno alrededor del contenido de los elementos.
+
+Al establecer `padding: 20px;`, se agrega un espacio de relleno de 20 píxeles alrededor del contenido de los elementos `<header>`, `<main>` y `<footer>`. El espacio de relleno crea un área de separación entre el contenido y los bordes del elemento, lo que proporciona un mejor espacio visual y mejora la legibilidad.
+
+Esta adición ayuda a dar un poco de espacio entre el contenido y los bordes de los elementos `<header>`, `<main>` y `<footer>`, lo que resulta en un diseño más equilibrado y estéticamente agradable. Puedes ajustar el valor del relleno según tus necesidades y preferencias de diseño.

@@ -1,0 +1,31 @@
+El código que has proporcionado incluye nuevas adiciones en comparación con el código anterior. Aquí está la explicación de las nuevas adiciones:
+
+- `padding: 20px;`: Se ha agregado un relleno de 20 píxeles al elemento `<nav>`. Esto crea un espacio interno de 20 píxeles alrededor del contenido del elemento `<nav>`, lo que aumenta el espacio entre el borde del elemento y su contenido.
+
+- `box-sizing: border-box;`: Se ha aplicado la propiedad `box-sizing` con el valor `border-box` al elemento `<nav>`. Esto asegura que el ancho y alto del elemento incluyan el relleno y el borde, en lugar de agregarlos al tamaño total del elemento.
+
+- `nav ul`: Se ha aplicado un estilo al elemento `<ul>` dentro del elemento `<nav>`. Esto afectará a cualquier lista desordenada dentro del elemento `<nav>`.
+
+- `padding: 0px;`: Se ha establecido un relleno de 0 píxeles para el elemento `<ul>`. Esto elimina cualquier relleno predeterminado que pueda tener el elemento `<ul>`.
+
+- `margin: 0px;`: Se ha establecido un margen de 0 píxeles para el elemento `<ul>`. Esto elimina cualquier margen predeterminado que pueda tener el elemento `<ul>`.
+
+- `list-style-type: none;`: Se ha establecido el tipo de estilo de lista como "none" para el elemento `<ul>`. Esto elimina los marcadores de lista predeterminados del elemento `<ul>`.
+
+- `nav ul li a`: Se ha aplicado un estilo a los elementos `<a>` dentro de los elementos `<li>` de la lista en el elemento `<nav>`. Esto afectará a los enlaces dentro de la lista en el elemento `<nav>`.
+
+- `display: block;`: Se ha establecido la visualización de los elementos `<a>` como "block". Esto hará que los enlaces se muestren como elementos de bloque, lo que les permitirá ocupar todo el ancho disponible dentro de los elementos `<li>`.
+
+- `text-decoration: none;`: Se ha eliminado la decoración de texto (subrayado) de los enlaces dentro de la lista en el elemento `<nav>`.
+
+- `color: inherit;`: Se ha establecido el color de texto de los enlaces dentro de la lista en el elemento `<nav>` para heredar el color del texto de su elemento padre.
+
+- `padding-top: 5px; padding-bottom: 5px;`: Se ha agregado un relleno de 5 píxeles en la parte superior e inferior de los enlaces dentro de la lista en el elemento `<nav>`. Esto crea un espacio vertical entre los enlaces.
+
+- `margin-bottom: 5px;`: Se ha agregado un margen inferior de 5 píxeles a los enlaces dentro de la lista en el elemento `<nav>`. Esto crea un espacio vertical entre los elementos de la lista.
+
+- `border-bottom: 1px solid grey;`: Se ha agregado un borde inferior de 1 píxel sólido de color gris a los enlaces dentro de la lista en el elemento `<nav>`. Esto crea una línea divisoria entre los elementos de la lista.
+
+Estas adiciones afectan al diseño y la presentación de la lista de enlaces dentro del elemento `<nav>`. Los estilos aplicados ayudan a mejorar la legibilidad y la apariencia visual de los enlaces, creando espacios y divisiones visuales entre ellos.
+
+Recuerda que puedes ajustar los valores de relleno, margen, borde y otros estilos según tus necesidades de diseño y preferencias estéticas.

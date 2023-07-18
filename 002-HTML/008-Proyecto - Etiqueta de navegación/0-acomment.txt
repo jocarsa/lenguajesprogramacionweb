@@ -1,0 +1,28 @@
+En HTML5, la etiqueta `<nav>` se utiliza para definir una sección de navegación en una página web. Esta etiqueta se utiliza para agrupar enlaces u otros elementos que proporcionen opciones de navegación para el sitio web, como menús de navegación, enlaces a diferentes páginas o secciones del sitio, enlaces a redes sociales, entre otros.
+
+La sintaxis básica de la etiqueta `<nav>` es la siguiente:
+
+```html
+<nav>
+    <!-- Aquí se colocan los enlaces y elementos de navegación -->
+</nav>
+```
+
+Dentro de la etiqueta `<nav>`, puedes utilizar cualquier elemento que se utilice para proporcionar opciones de navegación, como enlaces `<a>`, listas de enlaces `<ul>` o cualquier otro contenido relevante para la navegación del sitio web.
+
+Ejemplo de uso de la etiqueta `<nav>` con una lista de enlaces:
+
+```html
+<nav>
+    <ul>
+        <li><a href="inicio.html">Inicio</a></li>
+        <li><a href="acerca.html">Acerca de</a></li>
+        <li><a href="servicios.html">Servicios</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+    </ul>
+</nav>
+```
+
+En este ejemplo, se utiliza una lista (`<ul>`) con elementos de lista (`<li>`) que contienen enlaces (`<a>`) para representar un menú de navegación con cuatro opciones: Inicio, Acerca de, Servicios y Contacto.
+
+Utilizar la etiqueta `<nav>` es una práctica recomendada en HTML5, ya que ayuda a definir claramente la sección de navegación de la página, lo que facilita la accesibilidad y el mantenimiento del código. Además, los navegadores y las tecnologías de asistencia pueden reconocer el contenido dentro de la etiqueta `<nav>` como una sección de navegación y adaptar su comportamiento en consecuencia.

@@ -1,0 +1,17 @@
+En HTML, las etiquetas `<head>` y `<body>` son dos secciones fundamentales que se utilizan para organizar el contenido y los metadatos de una página web. Ambas forman parte del documento HTML y se colocan dentro de la etiqueta `<html>`.
+
+1. Etiqueta `<head>`:
+La etiqueta `<head>` es una sección no visible para los usuarios y se encuentra en la parte superior del documento HTML. Su función principal es contener metadatos y enlaces a recursos externos que son necesarios para el funcionamiento y presentación adecuada de la página. Aquí se definen elementos como:
+
+- `<title>`: Define el título de la página, que se muestra en la barra de título o pestaña del navegador.
+- Metadatos (por ejemplo, `<meta>`): Proporcionan información sobre el documento, como el conjunto de caracteres utilizado, la descripción de la página, palabras clave, etc.
+- Enlaces a hojas de estilo (por ejemplo, `<link>`): Permiten conectar hojas de estilo CSS para dar estilo y diseño a la página.
+- Enlaces a scripts (por ejemplo, `<script>`): Se utilizan para cargar scripts JavaScript que pueden agregar interactividad o funcionalidad adicional a la página.
+- Icono de página (por ejemplo, `<link rel="icon">`): Permite especificar un icono que se mostrará en la pestaña del navegador o en la página de marcadores.
+
+2. Etiqueta `<body>`:
+La etiqueta `<body>` es una sección visible para los usuarios y contiene todo el contenido que se mostrará en la página web. Aquí es donde se incluyen los elementos visibles, como texto, imágenes, enlaces, formularios, elementos multimedia y cualquier otro contenido interactivo.
+
+La mayoría de los elementos HTML, como encabezados (`<h1>`, `<h2>`, etc.), párrafos (`<p>`), imágenes (`<img>`), enlaces (`<a>`), listas (`<ul>`, `<ol>`, `<li>`), formularios (`<form>`, `<input>`, `<button>`, etc.) y otros, deben colocarse dentro de la etiqueta `<body>` para que se muestren correctamente en la página web.
+
+En resumen, la etiqueta `<head>` se utiliza para proporcionar información importante y recursos necesarios para la página web, mientras que la etiqueta `<body>` contiene el contenido visible y interactivo que los usuarios ven y con el que interactúan en el sitio web.

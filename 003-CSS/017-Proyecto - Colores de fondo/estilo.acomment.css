@@ -1,0 +1,7 @@
+El código que has proporcionado incluye nuevas adiciones en comparación con el código anterior. Aquí está la explicación de las nuevas adiciones:
+
+- `header, main, footer`: Se ha utilizado una regla de selector para seleccionar múltiples elementos HTML, en este caso, `<header>`, `<main>` y `<footer>`. Estos elementos representan las secciones del encabezado, contenido principal y pie de página de la página web, respectivamente.
+
+- `background: white;`: Se aplica un estilo de fondo blanco a los elementos seleccionados. El valor "white" se utiliza para establecer el color de fondo como blanco.
+
+Estas adiciones aplican un estilo de fondo blanco a los elementos `<header>`, `<main>` y `<footer>` de la página web. Mientras tanto, se mantiene el estilo de fondo gris claro (rgb(220,220,220)) en el elemento `<body>`. Esto ayuda a diferenciar visualmente las secciones y proporciona un contraste entre el fondo del cuerpo y los elementos del encabezado, contenido principal y pie de página.

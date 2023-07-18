@@ -1,0 +1,7 @@
+El código que has proporcionado incluye una nueva adición en comparación con el código anterior. Aquí está la explicación de la nueva adición:
+
+- `margin: auto;`: Se ha añadido la propiedad `margin` con el valor `auto` a los elementos `<header>`, `<main>` y `<footer>`. Esta propiedad se utiliza para establecer los márgenes del elemento.
+
+Al establecer `margin: auto;`, los elementos `<header>`, `<main>` y `<footer>` tendrán márgenes automáticos. Esto hace que los elementos se centren horizontalmente en su contenedor principal. Los márgenes automáticos distribuyen automáticamente el espacio disponible en ambos lados del elemento, lo que resulta en una alineación centrada horizontalmente.
+
+Esta adición ayuda a centrar los elementos `<header>`, `<main>` y `<footer>` horizontalmente dentro de su contenedor y les da una apariencia más equilibrada y estéticamente agradable en la página.

@@ -1,0 +1,9 @@
+HTML (HyperText Markup Language) es un lenguaje de marcado utilizado para crear y diseñar páginas web. Es el lenguaje principal utilizado para estructurar el contenido de una página web y definir su presentación, como el texto, imágenes, enlaces, tablas, formularios y otros elementos multimedia. HTML se basa en el concepto de hipertexto, que permite a los usuarios navegar y acceder a diferentes páginas web a través de enlaces o hipervínculos.
+
+HTML utiliza etiquetas o elementos para marcar y definir el contenido de la página. Cada etiqueta tiene una función específica y se representa entre corchetes angulares (< >). Por ejemplo, la etiqueta `<p>` se utiliza para marcar un párrafo, la etiqueta `<img>` se utiliza para mostrar una imagen y la etiqueta `<a>` se utiliza para crear un enlace.
+
+A través de las etiquetas, HTML establece una estructura lógica y semántica para el contenido de la página, lo que facilita la interpretación y navegación para los usuarios y los motores de búsqueda. Además, HTML permite enlazar diferentes páginas web mediante hipervínculos, lo que permite una navegación fluida y conectada en la World Wide Web.
+
+El diseño y la presentación visual de una página web se controlan principalmente mediante hojas de estilo en cascada (CSS), que se utilizan junto con HTML para dar estilo y formato al contenido.
+
+HTML es un lenguaje de código abierto y se mantiene y evoluciona mediante un grupo de trabajo conocido como World Wide Web Consortium (W3C). A lo largo de los años, han aparecido diferentes versiones de HTML, siendo la versión más reciente HTML5, que ofrece muchas nuevas características y mejoras para crear páginas web más ricas y dinámicas.

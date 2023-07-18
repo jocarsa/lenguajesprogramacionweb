@@ -1,0 +1,61 @@
+La etiqueta `<div>` en HTML es un elemento de bloque que se utiliza para crear un contenedor genérico o un bloque de contenido sin un significado semántico específico. Su nombre proviene de "división" y su propósito principal es agrupar y organizar elementos dentro de una página web para facilitar el diseño y el estilo mediante CSS (hojas de estilo en cascada).
+
+La sintaxis básica de la etiqueta `<div>` es la siguiente:
+
+```html
+<div>
+  <!-- Contenido y elementos aquí -->
+</div>
+```
+
+Dentro de la etiqueta `<div>`, puedes incluir otros elementos HTML, como texto, imágenes, enlaces, listas, formularios, u otros elementos HTML, y luego puedes aplicar estilos específicos a este contenedor utilizando CSS. Esto permite crear diseños flexibles y estructurar el contenido de una página web de manera más organizada.
+
+Un ejemplo común de uso de la etiqueta `<div>` es para crear columnas en un diseño de varias columnas:
+
+```html
+<div style="width: 33%; float: left;">
+  <!-- Contenido de la primera columna -->
+</div>
+<div style="width: 33%; float: left;">
+  <!-- Contenido de la segunda columna -->
+</div>
+<div style="width: 33%; float: left;">
+  <!-- Contenido de la tercera columna -->
+</div>
+```
+
+En este ejemplo, cada `<div>` actúa como una columna con un ancho del 33% del ancho total de su contenedor principal, y se aplican estilos para que aparezcan una al lado de la otra.
+
+Es importante tener en cuenta que si bien el elemento `<div>` es muy útil para organizar y estilizar el contenido, HTML5 también ha introducido etiquetas más semánticas, como `<header>`, `<nav>`, `<section>`, `<article>`, `<main>`, entre otras, que se recomiendan utilizar cuando sea posible para proporcionar una estructura más significativa y accesible a la página web.
+
+La etiqueta `<img>` en HTML se utiliza para insertar imágenes en una página web. Es una etiqueta vacía, lo que significa que no tiene una etiqueta de cierre, y solo contiene atributos que definen la imagen que se mostrará en la página.
+
+La sintaxis básica de la etiqueta `<img>` es la siguiente:
+
+```html
+<img src="ruta_de_la_imagen.jpg" alt="Texto alternativo">
+```
+
+Explicación de los atributos utilizados:
+
+- `src`: Es el atributo obligatorio que especifica la ruta o URL de la imagen que se mostrará en la página. Puede ser una ruta relativa o una URL absoluta. Por ejemplo, `"ruta_de_la_imagen.jpg"` podría ser una imagen local ubicada en el mismo directorio que el archivo HTML, o una URL completa como `"https://www.ejemplo.com/imagen.jpg"` para una imagen alojada en línea.
+
+- `alt`: Es un atributo obligatorio que proporciona un texto alternativo para la imagen. El texto alternativo se muestra si la imagen no se puede cargar, si el usuario tiene desactivada la carga de imágenes o si alguien está utilizando un lector de pantalla para acceder al contenido. Proporcionar un texto alternativo significativo es importante para la accesibilidad web y para que los usuarios obtengan información sobre el contenido de la imagen, incluso si no pueden verla.
+
+Además de estos atributos, hay otros que se pueden utilizar para personalizar el comportamiento y el aspecto de la imagen, como `width`, `height`, `title`, `border`, etc. Sin embargo, ten en cuenta que el atributo `width` y `height` solo debe usarse si sabes las dimensiones reales de la imagen y no deseas que el navegador realice ajustes automáticamente, ya que puede afectar la carga y la presentación de la página.
+
+Ejemplo completo:
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ejemplo de etiqueta img</title>
+</head>
+<body>
+    <img src="ruta_de_la_imagen.jpg" alt="Texto alternativo para la imagen">
+</body>
+</html>
+```
+
+Recuerda que siempre debes proporcionar un texto alternativo apropiado para cada imagen utilizando el atributo `alt` para mejorar la accesibilidad y la experiencia del usuario en tu página web.

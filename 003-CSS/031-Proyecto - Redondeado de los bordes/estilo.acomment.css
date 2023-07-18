@@ -1,0 +1,9 @@
+En el código que has proporcionado, se han realizado las siguientes adiciones y modificaciones:
+
+- `header`: Se ha agregado una regla CSS para el elemento `<header>`. Se ha establecido un borde redondeado en la parte superior del elemento, con un radio de esquina de `20px 20px 0px 0px`. Esto crea un efecto de esquina redondeada en la parte superior del encabezado.
+
+- `#logo`: Se ha agregado una regla CSS adicional para el elemento con el ID `logo`. Se ha establecido un borde redondeado en la esquina superior izquierda del elemento, con un radio de esquina de `10px 0px 0px 10px`. Esto crea un efecto de esquina redondeada en la parte superior izquierda del logotipo.
+
+- `#corporativo`: Se ha agregado una regla CSS adicional para el elemento con el ID `corporativo`. Se ha establecido un borde redondeado en la esquina inferior derecha del elemento, con un radio de esquina de `0px 10px 10px 0px`. Esto crea un efecto de esquina redondeada en la parte inferior derecha del bloque corporativo.
+
+Estas modificaciones aplican bordes redondeados a los elementos `<header>`, `#logo` y `#corporativo`, lo que contribuye al diseño visual de la página y crea una apariencia más atractiva.

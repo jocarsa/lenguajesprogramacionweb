@@ -1,0 +1,50 @@
+En CSS, la geometría se refiere a cómo se pueden controlar las dimensiones, formas y disposición de los elementos HTML. CSS ofrece varias propiedades para manipular la geometría de los elementos y lograr diferentes efectos visuales. A continuación, se presentan algunas de las propiedades de CSS más comunes relacionadas con la geometría:
+
+1. **width** y **height:** Estas propiedades se utilizan para definir el ancho y la altura de un elemento. Por ejemplo:
+
+```css
+div {
+  width: 200px;
+  height: 100px;
+}
+```
+
+2. **margin:** La propiedad `margin` se utiliza para establecer el espacio exterior alrededor de un elemento. Puede tener hasta cuatro valores que definen el margen superior, derecho, inferior e izquierdo. Por ejemplo:
+
+```css
+p {
+  margin: 10px; /* Todos los márgenes serán de 10px */
+}
+
+h1 {
+  margin: 10px 20px; /* Márgenes superior e inferior serán de 10px, márgenes derecho e izquierdo serán de 20px */
+}
+
+div {
+  margin: 10px 20px 30px 40px; /* Márgenes superior, derecho, inferior e izquierdo serán de 10px, 20px, 30px y 40px, respectivamente */
+}
+```
+
+3. **padding:** La propiedad `padding` se utiliza para establecer el espacio interior de un elemento, es decir, el espacio entre el contenido del elemento y su borde. Al igual que `margin`, puede tener hasta cuatro valores para el relleno superior, derecho, inferior e izquierdo.
+
+4. **border:** La propiedad `border` se utiliza para establecer el borde de un elemento y puede tener hasta tres partes: ancho, estilo y color. Por ejemplo:
+
+```css
+div {
+  border: 1px solid #000; /* Un borde sólido de 1px de grosor en color negro */
+}
+```
+
+5. **border-radius:** Esta propiedad se utiliza para establecer la curvatura de las esquinas de un elemento, creando bordes redondeados. Por ejemplo:
+
+```css
+div {
+  border-radius: 10px; /* Bordes redondeados con un radio de 10px */
+}
+```
+
+6. **position:** La propiedad `position` se utiliza para controlar el posicionamiento de un elemento en la página. Puede ser `static` (posición predeterminada), `relative`, `absolute` o `fixed`.
+
+7. **float:** La propiedad `float` se utiliza para permitir que un elemento flote hacia la izquierda o hacia la derecha del contenedor padre.
+
+Estas son solo algunas de las propiedades de CSS relacionadas con la geometría. CSS ofrece muchas más propiedades y técnicas para controlar el diseño y el posicionamiento de elementos en una página web. Con el uso adecuado de estas propiedades, puedes crear diseños complejos y atractivos para tu sitio web.

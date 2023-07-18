@@ -1,0 +1,21 @@
+La historia de CSS (Cascading Style Sheets) se remonta a la necesidad de separar la presentación visual de los documentos HTML y permitir un mayor control y flexibilidad en el diseño de páginas web. Aquí tienes una breve historia de CSS:
+
+1. **1990:** El desarrollo de HTML
+   En 1990, Tim Berners-Lee propuso el concepto de la World Wide Web y desarrolló el lenguaje de marcado HTML (HyperText Markup Language) como un medio para crear páginas web. HTML permitía definir la estructura y el contenido de los documentos, pero no proporcionaba una forma efectiva de controlar su presentación.
+
+2. **1994:** La propuesta de CSS
+   En 1994, Håkon Wium Lie y Bert Bos presentaron la propuesta inicial para CSS como un lenguaje de hojas de estilo para dar estilo a los documentos HTML. La idea era separar la presentación del contenido, lo que permitiría cambiar el diseño de un sitio web sin tener que modificar su estructura.
+
+3. **1996:** CSS1 se convierte en un estándar
+   En 1996, la primera versión de CSS (CSS1) se convirtió en un estándar oficial del World Wide Web Consortium (W3C). CSS1 permitía definir estilos básicos, como colores, fuentes, márgenes y espaciado, y fue un paso importante hacia la separación de la presentación del contenido.
+
+4. **1998:** CSS2 y la expansión de capacidades
+   CSS2 se lanzó en 1998 y trajo muchas mejoras y nuevas características, como posicionamiento avanzado, efectos visuales y soporte para hojas de estilo en cascada. CSS2 permitió diseños más complejos y sofisticados para las páginas web.
+
+5. **2001:** La aparición de CSS3
+   CSS3, la versión más reciente de CSS, comenzó a desarrollarse en 2001 y ha sido un proceso continuo de expansión y actualización. CSS3 ha introducido una amplia gama de nuevas características, como bordes redondeados, sombras, animaciones, transiciones, transformaciones y capacidades avanzadas de diseño y diseño responsivo.
+
+6. **Actualidad:** CSS en constante evolución
+   En la actualidad, CSS sigue evolucionando con nuevas especificaciones y actualizaciones periódicas. Las características de CSS3 se han implementado ampliamente en los navegadores modernos, lo que ha permitido a los desarrolladores web crear diseños y efectos visuales más sofisticados y atractivos.
+
+CSS se ha convertido en una parte esencial del desarrollo web, permitiendo a los diseñadores y desarrolladores dar estilo y personalidad a las páginas web, lo que mejora significativamente la experiencia del usuario. La separación de la presentación del contenido ha demostrado ser una práctica valiosa que permite un desarrollo web más eficiente y mantenible. Con CSS en constante evolución, podemos esperar que se agreguen más características y mejoras para seguir mejorando la forma en que interactuamos con la Web.

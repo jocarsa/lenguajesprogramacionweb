@@ -1,0 +1,23 @@
+Las etiquetas `<html>` en HTML son elementos fundamentales que delimitan el comienzo y el final de un documento HTML. Toda la estructura y contenido del documento HTML deben estar contenidos dentro de estas etiquetas. La etiqueta `<html>` indica al navegador que el contenido que se encuentra dentro de ella es un documento HTML y que debe interpretarlo como tal.
+
+La estructura básica de un documento HTML es la siguiente:
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Aquí se incluyen metaetiquetas, título, enlaces a hojas de estilo, etc. -->
+  </head>
+  <body>
+    <!-- Aquí se incluye el contenido visible de la página, como texto, imágenes, enlaces, etc. -->
+  </body>
+</html>
+```
+
+Como puedes ver en el ejemplo, las etiquetas `<html>` delimitan todo el documento, y dentro de ellas, encontramos dos secciones importantes:
+
+1. `<head>`: Esta sección contiene información meta sobre el documento, como el título de la página, enlaces a hojas de estilo (CSS), metadatos, enlaces a scripts, entre otros. La información dentro de esta sección no se muestra directamente en la página, pero juega un papel crucial en la optimización para motores de búsqueda (SEO) y otras configuraciones de la página.
+
+2. `<body>`: En esta sección se encuentra el contenido visible de la página web, que es lo que los usuarios verán cuando visiten el sitio. Aquí se incluye el texto, imágenes, enlaces, formularios y cualquier otro elemento interactivo o informativo.
+
+Recuerda que todas las etiquetas en HTML deben estar correctamente estructuradas y anidadas para que el documento sea válido y se visualice correctamente en los navegadores. El uso adecuado de las etiquetas `<html>`, `<head>` y `<body>` es esencial para crear páginas web bien formadas y accesibles.

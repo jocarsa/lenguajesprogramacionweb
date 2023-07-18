@@ -1,0 +1,15 @@
+El código que has proporcionado incluye varias nuevas adiciones en comparación con el código anterior. Aquí está la explicación de las nuevas adiciones:
+
+- `#logo,#corporativo`: Se han agregado selectores de ID para los elementos con los identificadores `logo` y `corporativo`. Estos selectores se utilizan para aplicar estilos específicos a estos elementos.
+
+- `float: left;`: Se aplica el estilo `float: left;` a los elementos con los identificadores `logo` y `corporativo`. Esta propiedad se utiliza para controlar el posicionamiento y el flujo del contenido en relación con otros elementos. En este caso, los elementos `logo` y `corporativo` se colocarán uno al lado del otro en la disposición horizontal.
+
+- `width: 25%;`: Se establece un ancho del 25% para el elemento con el identificador `logo`. Esto controla el ancho del elemento `logo` en relación con su contenedor.
+
+- `width: 75%;`: Se establece un ancho del 75% para el elemento con el identificador `corporativo`. Esto controla el ancho del elemento `corporativo` en relación con su contenedor.
+
+- `width: 100%;`: Se establece un ancho del 100% para la imagen dentro del elemento `logo`. Esto asegura que la imagen ocupe todo el ancho disponible dentro del elemento `logo`.
+
+- `font-size: 20px;`: Se establece un tamaño de fuente de 20 píxeles para los elementos `<h1>` y `<h2>`. Esto controla el tamaño del texto dentro de estos elementos.
+
+Estas adiciones agregan estilos y modifican el diseño de la página web. Los elementos `logo` y `corporativo` se colocarán uno al lado del otro debido al uso de `float: left;`. Se establece el ancho de los elementos `logo` y `corporativo` utilizando porcentajes, y se controla el tamaño de la imagen dentro de `logo` y el tamaño de fuente de los encabezados `<h1>` y `<h2>`.

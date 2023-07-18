@@ -1,0 +1,7 @@
+El código que has proporcionado incluye una nueva adición en comparación con el código anterior. Aquí está la explicación de la nueva adición:
+
+- `.clearfix`: Se ha creado una nueva clase llamada "clearfix". Esta clase se utiliza para resolver los problemas de "clearfix" se refiere a una técnica comúnmente utilizada para limpiar los flotadores y asegurarse de que el contenedor padre abarque adecuadamente los elementos flotantes dentro de él.
+
+- `clear: both;`: Se aplica el estilo `clear: both;` a la clase "clearfix". Esta propiedad se utiliza para indicar que no debe permitirse que ningún elemento flote a la izquierda o a la derecha del elemento "clearfix". Al aplicar esta propiedad, el elemento "clearfix" asegura que no haya elementos flotantes a su izquierda o derecha, lo que garantiza que el contenedor padre abarque correctamente los elementos flotantes.
+
+Esta adición es útil cuando se utilizan elementos flotantes como en el caso de los elementos `logo` y `corporativo` que se han establecido con `float: left;`. Al agregar la clase "clearfix" al contenedor principal, aseguramos que ningún elemento flote a su izquierda o derecha, evitando posibles problemas de diseño o desbordamiento de contenido.

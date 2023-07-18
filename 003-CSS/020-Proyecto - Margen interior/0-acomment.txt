@@ -1,0 +1,48 @@
+La propiedad `padding` en CSS se utiliza para establecer el espacio en blanco entre el contenido de un elemento HTML y su borde. Es decir, controla el espacio interior del elemento. Puedes definir diferentes valores de padding para cada lado (arriba, derecha, abajo e izquierda) del elemento.
+
+La sintaxis básica para utilizar la propiedad `padding` es la siguiente:
+
+```css
+selector {
+  padding: valor;
+}
+```
+
+Donde:
+- `selector` es el elemento HTML al que deseas aplicar el padding.
+- `valor` es el tamaño del padding que deseas establecer. Puede ser un valor numérico seguido de una unidad de medida (por ejemplo, `px` para píxeles, `em` para ems, `rem` para rems, `%` para porcentaje, etc.).
+
+Ejemplo de uso de `padding` en CSS:
+
+```css
+p {
+  padding: 10px;
+}
+```
+
+En este ejemplo, todos los párrafos (`<p>`) tendrán un padding de 10 píxeles en todos los lados (arriba, derecha, abajo e izquierda).
+
+Si deseas establecer diferentes valores de padding para cada lado del elemento, puedes utilizar la siguiente sintaxis:
+
+```css
+div {
+  padding-top: 20px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+}
+```
+
+En este caso, el elemento `<div>` tendrá 20 píxeles de padding en la parte superior, 30 píxeles en el lado derecho, 10 píxeles en la parte inferior y 5 píxeles en el lado izquierdo.
+
+Además, al igual que con `margin`, puedes utilizar la propiedad `padding` con valores abreviados para establecer diferentes valores de padding para cada lado en una sola declaración:
+
+```css
+img {
+  padding: 15px 20px;
+}
+```
+
+En este ejemplo, la imagen tendrá 15 píxeles de padding en la parte superior e inferior, y 20 píxeles en los lados derecho e izquierdo.
+
+La propiedad `padding` es muy útil para ajustar el espacio entre el contenido y el borde de un elemento, lo que permite crear diseños más espaciados y estéticamente agradables en una página web.

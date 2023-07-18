@@ -1,0 +1,27 @@
+La propiedad `font-family` en CSS se utiliza para establecer la familia de fuentes que se aplicará al texto de un elemento HTML. Esta propiedad permite especificar una lista de fuentes, separadas por comas, para que el navegador utilice la primera fuente disponible en la lista. Si el navegador no puede encontrar la primera fuente, intentará con la siguiente y así sucesivamente.
+
+La sintaxis básica para utilizar la propiedad `font-family` es la siguiente:
+
+```css
+selector {
+  font-family: fuente1, fuente2, fuente3;
+}
+```
+
+Donde:
+- `selector` es el elemento HTML al que deseas aplicar la familia de fuentes.
+- `fuente1`, `fuente2`, `fuente3`, etc., son los nombres de las fuentes que deseas utilizar. Pueden ser nombres específicos de fuentes instaladas en el sistema, nombres genéricos de fuentes (como "serif", "sans-serif", "monospace", etc.), o enlaces a fuentes web utilizando `@font-face`.
+
+Ejemplo de uso de `font-family` en CSS:
+
+```css
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+```
+
+En este ejemplo, hemos establecido la familia de fuentes para todo el contenido del cuerpo del documento. Primero, se intentará usar la fuente Arial, si no está disponible, se intentará Helvetica y, si ninguna de las dos está disponible, el navegador utilizará una fuente sans-serif genérica como respaldo.
+
+Puedes usar nombres de fuentes específicas, como "Georgia", "Times New Roman", "Verdana", etc., si están instaladas en el sistema. También puedes utilizar fuentes web importadas utilizando `@font-face` para aplicar fuentes personalizadas en tu página web.
+
+Es importante elegir fuentes adecuadas para garantizar la legibilidad y la apariencia visual de tu contenido. Al utilizar fuentes web personalizadas, asegúrate de tener los permisos adecuados para utilizarlas y de que se carguen correctamente en tu sitio web para que los visitantes puedan ver el contenido como lo has diseñado.

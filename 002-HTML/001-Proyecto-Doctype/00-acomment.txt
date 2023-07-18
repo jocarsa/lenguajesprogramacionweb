@@ -1,0 +1,13 @@
+El DOCTYPE (Documento de Tipo) en HTML es una declaración especial que se utiliza para indicar la versión del lenguaje de marcado que se está utilizando en un documento HTML. Esta declaración se coloca al comienzo del documento HTML y sirve para que los navegadores y otros programas interpreten correctamente el código y muestren la página de manera adecuada.
+
+El DOCTYPE se ve típicamente como la primera línea de un documento HTML y tiene la siguiente estructura:
+
+```html
+<!DOCTYPE html>
+```
+
+La declaración `<!DOCTYPE html>` se utiliza en HTML5, que es la versión más reciente del lenguaje de marcado utilizado para crear páginas web. HTML5 es una versión más moderna y ampliamente aceptada de HTML, y es la recomendada para desarrollar sitios web en la actualidad.
+
+En versiones anteriores de HTML, como HTML 4.01 o XHTML 1.0, el DOCTYPE tenía una estructura más compleja y específica para cada versión. Sin embargo, con HTML5, la declaración se simplificó significativamente a la forma mencionada anteriormente.
+
+En resumen, el DOCTYPE en HTML es una instrucción que informa al navegador sobre la versión de HTML que se está utilizando en el documento, lo que permite una interpretación correcta y coherente de la página web.

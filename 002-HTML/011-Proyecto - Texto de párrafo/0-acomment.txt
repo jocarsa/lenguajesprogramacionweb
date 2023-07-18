@@ -1,0 +1,29 @@
+En HTML, el texto de párrafo se define utilizando la etiqueta `<p>`. La etiqueta `<p>` representa un párrafo y se utiliza para agrupar y mostrar bloques de texto en una página web.
+
+La sintaxis básica de la etiqueta `<p>` es la siguiente:
+
+```html
+<p>Este es el texto del párrafo.</p>
+```
+
+Puedes utilizar la etiqueta `<p>` para crear párrafos individuales o múltiples en tu página web. Si deseas agregar varios párrafos, simplemente incluye cada párrafo dentro de su propia etiqueta `<p>`:
+
+```html
+<p>Este es el primer párrafo.</p>
+<p>Este es el segundo párrafo.</p>
+<p>Y este es el tercer párrafo.</p>
+```
+
+Cada párrafo se mostrará en una línea separada en la página web, y habrá un espacio vertical entre cada párrafo.
+
+El contenido que se coloca dentro de las etiquetas `<p>` puede incluir texto, imágenes, enlaces y otros elementos HTML. Por ejemplo:
+
+```html
+<p>Este es un párrafo con <a href="https://www.ejemplo.com">un enlace</a> y <em>texto enfatizado</em>.</p>
+```
+
+En este ejemplo, el párrafo contiene texto y un enlace (`<a>`) que lleva a "https://www.ejemplo.com" y texto enfatizado (`<em>`).
+
+Recuerda que la etiqueta `<p>` es una etiqueta de bloque, lo que significa que ocupa todo el ancho disponible en su contenedor y se muestra en una línea separada. Si deseas colocar contenido en línea sin agregar un espacio vertical entre ellos, puedes utilizar la etiqueta `<span>` o simplemente escribir el contenido sin etiquetas adicionales.
+
+En general, la etiqueta `<p>` es fundamental para estructurar y formatear el contenido de texto en una página web y es ampliamente utilizada para crear párrafos claros y legibles.

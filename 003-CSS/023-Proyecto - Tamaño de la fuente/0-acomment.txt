@@ -1,0 +1,37 @@
+La propiedad `font-size` en CSS se utiliza para establecer el tamaño del texto de un elemento HTML. Puedes especificar el tamaño utilizando diferentes unidades de medida, como píxeles (`px`), em (`em`), rem (`rem`), porcentaje (`%`), puntos (`pt`), etc.
+
+La sintaxis básica para utilizar la propiedad `font-size` es la siguiente:
+
+```css
+selector {
+  font-size: valor;
+}
+```
+
+Donde:
+- `selector` es el elemento HTML al que deseas aplicar el tamaño de fuente.
+- `valor` es el tamaño de fuente que deseas establecer. Puede ser un número seguido de la unidad de medida (por ejemplo, `px` para píxeles, `em` para ems, `rem` para rems, etc.).
+
+Ejemplo de uso de `font-size` en CSS:
+
+```css
+p {
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 2em; /* El tamaño del texto será el doble del tamaño de fuente del elemento padre */
+}
+
+span {
+  font-size: 120%; /* El tamaño del texto será un 20% más grande que el tamaño de fuente del elemento padre */
+}
+```
+
+En el primer ejemplo, hemos establecido el tamaño de fuente de todos los párrafos (`<p>`) en 16 píxeles.
+
+En el segundo ejemplo, hemos establecido el tamaño de fuente de todos los encabezados de nivel 1 (`<h1>`) al doble del tamaño de fuente del elemento padre.
+
+En el tercer ejemplo, hemos establecido el tamaño de fuente de todos los elementos `<span>` al 120% del tamaño de fuente del elemento padre, lo que los hace un 20% más grandes que el tamaño de fuente del contenedor padre.
+
+Recuerda que la elección del tamaño de fuente es importante para la legibilidad y el diseño de tu página web. Asegúrate de utilizar tamaños adecuados para diferentes elementos para que el contenido sea fácil de leer y visualmente agradable para los usuarios. También ten en cuenta que si especificas el tamaño de fuente en unidades relativas, como `em` o `rem`, la escala del texto se adaptará automáticamente si se cambia el tamaño de fuente del elemento padre, lo que facilita la creación de diseños más flexibles y responsivos.

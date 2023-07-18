@@ -1,0 +1,35 @@
+La etiqueta `<article>` en HTML es una etiqueta semántica introducida en HTML5 que se utiliza para definir un contenido independiente y autónomo dentro de una página web. Representa una sección que puede existir por sí misma y que tiene sentido por separado del resto del contenido del sitio web.
+
+La sintaxis básica de la etiqueta `<article>` es la siguiente:
+
+```html
+<article>
+  <!-- Contenido del artículo -->
+</article>
+```
+
+La etiqueta `<article>` se utiliza para agrupar contenido que es una entidad completa y que podría ser reutilizado o distribuido por separado de la página web que lo contiene. Algunos ejemplos de contenido que pueden ser considerados como artículos son:
+
+- Entradas de blog o noticias.
+- Publicaciones de foros.
+- Artículos periodísticos.
+- Comentarios.
+- Contenido generado por el usuario.
+- Widgets independientes.
+
+Es importante tener en cuenta que cada `<article>` debe tener su propia semántica y contexto, es decir, debe tener sentido por sí mismo, incluso si se muestra fuera del contexto del resto de la página. Además, los elementos `<article>` no deben contener contenido que sea puramente decorativo o repetitivo.
+
+Ejemplo de uso de la etiqueta `<article>`:
+
+```html
+<article>
+  <h2>Titular del artículo</h2>
+  <p>Este es el contenido del artículo.</p>
+  <p>Pueden haber varias párrafos y otros elementos dentro del artículo.</p>
+  <img src="imagen.jpg" alt="Imagen del artículo">
+</article>
+```
+
+En este ejemplo, hemos utilizado la etiqueta `<article>` para crear un artículo que contiene un titular, párrafos de texto y una imagen. El contenido dentro de `<article>` forma una entidad coherente y completa.
+
+El uso adecuado de la etiqueta `<article>` ayuda a estructurar y mejorar la semántica de una página web, lo que es beneficioso tanto para los motores de búsqueda (SEO) como para la accesibilidad.

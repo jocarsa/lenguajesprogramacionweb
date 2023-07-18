@@ -1,0 +1,11 @@
+El código que has proporcionado incluye nuevas adiciones en comparación con el código anterior. Aquí está la explicación de las nuevas adiciones:
+
+- `background: rgb(50, 50, 50);`: Se ha añadido la propiedad `background` con el valor `rgb(50, 50, 50)` a los elementos `#logo` y `#corporativo`. Esto establece un color de fondo oscuro para estos elementos.
+
+- `color: rgb(220, 220, 220);`: Se ha añadido la propiedad `color` con el valor `rgb(220, 220, 220)` a los elementos `#logo` y `#corporativo`. Esto establece el color del texto dentro de estos elementos como blanco.
+
+- `height: 200px;`: Se ha añadido la propiedad `height` con el valor `200px` a los elementos `#logo` y `#corporativo`. Esto establece una altura fija de 200 píxeles para estos elementos.
+
+Estas adiciones agregan estilo adicional a los elementos `#logo` y `#corporativo`. Ahora, estos elementos tendrán un color de fondo oscuro y el texto dentro de ellos será de color blanco. Además, se establece una altura fija de 200 píxeles para estos elementos.
+
+Estas adiciones pueden tener un impacto en la apariencia visual de la página web, brindando un contraste entre los elementos `#logo` y `#corporativo` y el resto del contenido de la página. Puedes ajustar los valores de `background`, `color` y `height` según tus preferencias y necesidades de diseño.

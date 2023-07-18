@@ -1,0 +1,7 @@
+El código que has proporcionado incluye una nueva adición en comparación con el código anterior. Aquí está la explicación de la nueva adición:
+
+- `font-family: sans-serif;`: Se ha añadido la propiedad `font-family` con el valor `sans-serif` a los elementos `<header>`, `<main>` y `<footer>`. Esta propiedad se utiliza para especificar la familia de fuentes que se aplicará al texto dentro de los elementos.
+
+Al establecer `font-family: sans-serif;`, se establece la fuente del texto dentro de los elementos `<header>`, `<main>` y `<footer>` como una fuente sans-serif genérica. La fuente sans-serif no tiene adornos en las terminaciones de las letras y se utiliza comúnmente para mejorar la legibilidad en la web.
+
+Esta adición establece la fuente del texto dentro de los elementos seleccionados como una fuente sans-serif genérica, lo que puede mejorar la legibilidad y la apariencia del contenido. Puedes ajustar el valor de `font-family` según tus preferencias y necesidades de diseño, utilizando nombres de fuentes específicas o valores genéricos.

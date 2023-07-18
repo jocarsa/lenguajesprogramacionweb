@@ -1,0 +1,17 @@
+JavaScript es un lenguaje de programación de alto nivel, interpretado y de propósito general, utilizado principalmente en el desarrollo web para crear interactividad en páginas y aplicaciones web. Fue creado por Brendan Eich mientras trabajaba en Netscape Communications Corporation (ahora Mozilla Corporation) y se lanzó oficialmente en 1995 como "LiveScript" y luego se renombró a "JavaScript".
+
+JavaScript es un lenguaje versátil y poderoso que permite a los desarrolladores web agregar funcionalidades dinámicas y complejas a las páginas web. A diferencia de HTML y CSS, que se utilizan para estructurar y dar estilo a las páginas, JavaScript se utiliza para manipular el contenido, responder a eventos del usuario y comunicarse con el servidor.
+
+Algunas de las características clave de JavaScript incluyen:
+
+1. **Interactividad del usuario:** JavaScript permite agregar interactividad a las páginas web, como validación de formularios, eventos de clic, animaciones y cambios en el contenido dinámicamente.
+
+2. **Manipulación del DOM:** JavaScript puede acceder y modificar el DOM (Document Object Model), que es una representación en memoria de la estructura de una página web. Esto permite a los desarrolladores cambiar el contenido y el estilo de una página de manera dinámica.
+
+3. **Comunicación con el servidor:** JavaScript permite realizar solicitudes a servidores web y recibir respuestas para actualizar el contenido de una página sin necesidad de recargarla. Esto se logra utilizando la tecnología AJAX (Asynchronous JavaScript and XML).
+
+4. **Programación orientada a objetos:** JavaScript admite programación orientada a objetos, lo que permite a los desarrolladores crear y reutilizar objetos y clases para organizar y estructurar el código de manera más eficiente.
+
+5. **Librerías y frameworks:** Existen numerosas librerías y frameworks de JavaScript, como jQuery, React, Angular y Vue.js, que facilitan el desarrollo web y proporcionan herramientas y componentes predefinidos para crear aplicaciones más rápidamente.
+
+JavaScript es un lenguaje interpretado, lo que significa que el código se ejecuta directamente en el navegador del usuario o en el servidor web, según la aplicación. A lo largo de los años, JavaScript ha evolucionado y se ha convertido en uno de los lenguajes de programación más populares y fundamentales en el desarrollo web y en muchos otros campos, como el desarrollo de aplicaciones móviles y el aprendizaje automático.

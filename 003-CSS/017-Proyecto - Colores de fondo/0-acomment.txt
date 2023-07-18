@@ -1,0 +1,39 @@
+En CSS, puedes especificar colores de diferentes maneras, ya sea utilizando nombres de colores predefinidos, códigos hexadecimales, códigos RGB (Red, Green, Blue) o códigos HSL (Hue, Saturation, Lightness). Aquí tienes ejemplos de cada uno:
+
+1. **Nombres de colores predefinidos:** CSS tiene una lista de nombres de colores predefinidos que puedes utilizar directamente. Por ejemplo:
+
+```css
+p {
+  color: red;
+  background-color: yellow;
+}
+```
+
+2. **Códigos hexadecimales:** Un código hexadecimal es una representación de un color en base hexadecimal (sistema de numeración de base 16). Comienza con un signo de numeral (#) seguido de seis caracteres hexadecimales que representan los componentes rojo (RR), verde (GG) y azul (BB) del color. Por ejemplo:
+
+```css
+h1 {
+  color: #336699;
+  background-color: #FFA500;
+}
+```
+
+3. **Códigos RGB:** Los códigos RGB se representan utilizando la función `rgb()` y tres valores que representan los componentes rojo, verde y azul del color. Cada valor puede variar entre 0 y 255. Por ejemplo:
+
+```css
+a {
+  color: rgb(255, 0, 128);
+  background-color: rgb(0, 128, 255);
+}
+```
+
+4. **Códigos HSL:** Los códigos HSL se representan utilizando la función `hsl()` y tres valores que representan el matiz (hue), la saturación (saturation) y la luminosidad (lightness) del color. El matiz se mide en grados (0 a 360), mientras que la saturación y la luminosidad se representan en porcentaje (0% a 100%). Por ejemplo:
+
+```css
+div {
+  color: hsl(120, 100%, 50%);
+  background-color: hsl(240, 50%, 75%);
+}
+```
+
+Estos son solo algunos ejemplos de cómo especificar colores en CSS. Puedes utilizar cualquiera de estas formas para aplicar colores a elementos HTML en tus hojas de estilo. Experimenta con diferentes colores y combinaciones para obtener el aspecto visual que desees en tu página web.

@@ -1,0 +1,11 @@
+El código que has proporcionado incluye nuevas adiciones en comparación con el código anterior. Aquí está la explicación de las nuevas adiciones:
+
+- `width: 800px;`: Se ha establecido un ancho fijo de 800 píxeles para los elementos `<header>`, `<main>` y `<footer>`. Esto limitará el ancho de estos elementos a 800 píxeles.
+
+- `margin: auto;`: Se ha establecido el margen automático para los elementos `<header>`, `<main>` y `<footer>`. Esto centrará estos elementos horizontalmente dentro de su contenedor.
+
+- `padding: 20px;`: Se ha agregado un relleno de 20 píxeles a los elementos `<header>`, `<main>` y `<footer>`. Esto creará un espacio de 20 píxeles entre el contenido y el borde de estos elementos.
+
+Estas adiciones afectan al diseño y la presentación de los elementos `<header>`, `<main>` y `<footer>`. Establecer un ancho fijo y un margen automático ayuda a centrar estos elementos y controlar su tamaño en la página. El relleno de 20 píxeles crea un espacio entre el contenido y el borde de estos elementos, lo que mejora la legibilidad y la apariencia visual.
+
+Recuerda que puedes ajustar los valores de ancho, margen y relleno según tus necesidades de diseño y diseño de página específicas.

@@ -1,0 +1,17 @@
+CSS (Cascading Style Sheets) es un lenguaje de hojas de estilo utilizado para definir el aspecto y la presentación visual de un documento HTML o XML. Con CSS, puedes controlar la apariencia de los elementos HTML, como el tamaño y tipo de fuente, el color del texto, el espaciado, el diseño de la página, los bordes, el fondo y muchos otros aspectos visuales.
+
+La idea central detrás de CSS es separar la estructura y el contenido de un documento (definidos en HTML) de su presentación visual (definida en CSS). Esto permite una mayor flexibilidad y facilita el mantenimiento y la actualización de un sitio web, ya que los cambios en la presentación se pueden realizar simplemente modificando el archivo CSS sin afectar el contenido del documento HTML.
+
+Las reglas de estilo en CSS se definen utilizando selectores y propiedades. Los selectores indican qué elementos del HTML se aplicarán las reglas, y las propiedades especifican cómo se deben mostrar esos elementos. Por ejemplo:
+
+```css
+/* Selector: Aplicar reglas a todos los párrafos */
+p {
+  color: blue; /* Propiedad: Establecer el color del texto en azul */
+  font-size: 16px; /* Propiedad: Establecer el tamaño de fuente en 16 píxeles */
+}
+```
+
+En este ejemplo, todas las etiquetas de párrafo `<p>` tendrán texto en color azul y un tamaño de fuente de 16 píxeles.
+
+CSS se utiliza ampliamente en el desarrollo web para dar estilo a páginas web y crear diseños atractivos y coherentes. Es una parte esencial de la construcción de sitios web modernos y permite una experiencia visual más agradable para los usuarios. Además, con el uso de CSS3, la versión más reciente de CSS, se han agregado muchas características y efectos avanzados para hacer que las páginas web sean más interactivas y dinámicas.

@@ -1,0 +1,27 @@
+La historia de HTML (HyperText Markup Language) se remonta al nacimiento de la World Wide Web y está estrechamente ligada a la evolución de Internet. Aquí tienes una breve historia de HTML:
+
+1. **1980:** El concepto de hipertexto
+   El concepto de hipertexto, que permite enlaces entre documentos o fragmentos de texto, fue propuesto por Ted Nelson en la década de 1960, pero comenzó a ganar popularidad en la década de 1980 con el desarrollo de sistemas de hipertexto como el Proyecto Xanadu.
+
+2. **1989:** La propuesta de la World Wide Web
+   En 1989, Tim Berners-Lee, un científico de la computación británico que trabajaba en el CERN (Organización Europea para la Investigación Nuclear), propuso un sistema de gestión de la información basado en el concepto de hipertexto. Su propuesta estableció los fundamentos de lo que se convertiría en la World Wide Web.
+
+3. **1990:** El nacimiento de HTML
+   En 1990, Tim Berners-Lee desarrolló el lenguaje de marcado HTML como una forma de estructurar y enlazar la información en la Web. La primera versión de HTML, conocida como HTML 1.0, fue simple y contenía solo unas pocas etiquetas para definir títulos, encabezados, párrafos y enlaces.
+
+4. **1993:** HTML 2.0 y los primeros navegadores web
+   En 1993, se lanzó HTML 2.0, que agregó nuevas características como listas ordenadas y desordenadas, tablas y formularios. En esta época, también aparecieron los primeros navegadores web, como Mosaic y Lynx, que permitieron a las personas acceder a contenidos en HTML.
+
+5. **1995:** HTML 3.0 y la estandarización
+   En 1995, se lanzó HTML 3.0, que introdujo más características y mejoras, como las hojas de estilo (CSS) y la capacidad de crear tablas más complejas. HTML 3.0 se convirtió en el primer estándar oficial para HTML, pero no llegó a ser ampliamente adoptado.
+
+6. **1997:** HTML 4.0 y la consolidación
+   HTML 4.0 fue lanzado en 1997 y se convirtió en un estándar ampliamente adoptado. Esta versión incluyó nuevas etiquetas y atributos para controlar la presentación y el diseño de las páginas web, lo que permitió una mayor flexibilidad y control sobre la apariencia del contenido.
+
+7. **2000:** HTML 4.01 y XHTML
+   HTML 4.01, lanzado en 2000, fue una versión de corrección de errores de HTML 4.0. Al mismo tiempo, se introdujo XHTML (Extensible HyperText Markup Language), que era una versión más estricta y bien formada de HTML basada en XML (eXtensible Markup Language).
+
+8. **2008:** HTML5 y la revolución web
+   HTML5, la última versión de HTML, fue propuesto en 2008 y se convirtió en un estándar oficial en 2014. HTML5 trajo muchas mejoras significativas, incluyendo soporte para video y audio nativos, elementos de semántica mejorada, elementos de formulario avanzados, capacidades de almacenamiento local y más. HTML5 marcó una revolución en la Web, permitiendo la creación de aplicaciones web más ricas y sofisticadas.
+
+Desde entonces, HTML5 ha seguido evolucionando con actualizaciones periódicas para adaptarse a las necesidades cambiantes de la Web y seguir proporcionando una base sólida para la creación de contenidos en línea.

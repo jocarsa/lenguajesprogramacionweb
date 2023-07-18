@@ -1,0 +1,23 @@
+La historia de JavaScript se remonta a la década de 1990, cuando la World Wide Web estaba en sus primeras etapas y se buscaba una forma de agregar interactividad a las páginas web. A continuación, te presento una breve historia de JavaScript:
+
+1. **1993:** Nacimiento de Mocha
+   En septiembre de 1993, Marc Andreessen y Eric Bina, desarrolladores del navegador Mosaic, contrataron a Brendan Eich en Netscape Communications Corporation para crear un lenguaje de scripting para el navegador Mosaic. Eich creó inicialmente un lenguaje llamado "Mocha", que tenía como objetivo agregar interactividad a las páginas web.
+
+2. **1995:** LiveScript y JavaScript
+   En diciembre de 1995, Netscape lanzó una versión beta de su navegador Navigator 2.0, que incluía el lenguaje Mocha renombrado como "LiveScript". Pocos días después, Netscape firmó un acuerdo de licencia con Sun Microsystems, que en ese momento tenía un lenguaje llamado "Java". Como resultado de este acuerdo, Netscape renombró a "LiveScript" como "JavaScript" para aprovechar el creciente interés en Java.
+
+3. **1996:** Estándar ECMA y JavaScript en Microsoft
+   Debido a su creciente popularidad, Netscape envió JavaScript a la organización ECMA International (European Computer Manufacturers Association) para estandarización. En 1997, ECMA publicó la primera especificación del lenguaje, conocida como ECMAScript 1.0. Aunque JavaScript fue el lenguaje más conocido, ECMAScript se convirtió en el nombre oficial del estándar.
+
+   Por otro lado, Microsoft lanzó su navegador Internet Explorer 3.0 con su propio lenguaje de scripting llamado "JScript", que era muy similar a JavaScript pero tenía algunas diferencias.
+
+4. **2000-2010:** Auge y desarrollo de JavaScript
+   Durante la primera década del siglo XXI, JavaScript se convirtió en una parte esencial del desarrollo web. Se desarrollaron numerosas librerías y frameworks, como jQuery, Prototype, Dojo y MooTools, que facilitaron el trabajo con JavaScript y permitieron el desarrollo de aplicaciones web más complejas y dinámicas.
+
+5. **2009:** ECMAScript 5 (ES5)
+   En 2009, se lanzó la quinta edición de ECMAScript (ES5), que introdujo nuevas características y mejoras en el lenguaje, como el modo estricto (strict mode), arreglos y objetos mejorados, funciones adicionales y más.
+
+6. **2015:** ECMAScript 6 (ES6) y más allá
+   En 2015, se lanzó la sexta edición de ECMAScript (ES6), también conocida como ECMAScript 2015 o ES2015. Esta versión trajo importantes cambios y mejoras al lenguaje, como clases, constantes, desestructuración, funciones de flecha, módulos y más. Desde entonces, se han lanzado actualizaciones periódicas de ECMAScript, que han continuado mejorando y expandiendo el lenguaje.
+
+Hoy en día, JavaScript se ha convertido en uno de los lenguajes de programación más populares y utilizados en el mundo, y no solo se limita al desarrollo web. Se utiliza en el desarrollo de aplicaciones web y móviles, juegos, aplicaciones de servidor (Node.js) y en muchos otros contextos. Con su evolución continua y el apoyo activo de la comunidad y los navegadores modernos, JavaScript seguirá siendo una herramienta poderosa y esencial en el desarrollo de software.

@@ -1,0 +1,20 @@
+La etiqueta `<title>` en HTML se utiliza dentro de la sección `<head>` de un documento HTML para definir el título de la página web. Es un elemento esencial y obligatorio en cualquier documento HTML válido, ya que el título de la página es lo que se muestra en la barra de título o pestaña del navegador cuando se abre la página. Además, el contenido de la etiqueta `<title>` también se utiliza en los resultados de búsqueda de los motores de búsqueda.
+
+La sintaxis básica de la etiqueta `<title>` es la siguiente:
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Título de la página</title>
+    <!-- Aquí se incluyen otros metadatos y enlaces a recursos externos -->
+</head>
+<body>
+    <!-- Aquí se incluye el contenido visible de la página -->
+</body>
+</html>
+```
+
+El texto que se coloque entre las etiquetas `<title>` y `</title>` será el título que aparecerá en la barra de título del navegador cuando se acceda a esa página. Por ejemplo, si el código HTML tiene `<title>Mi Página Web</title>`, entonces el título de la página en la barra del navegador será "Mi Página Web".
+
+Es importante elegir títulos descriptivos y relevantes para cada página, ya que el título juega un papel crucial tanto para los usuarios como para los motores de búsqueda. Un título claro y significativo ayuda a los visitantes a identificar el contenido de la página y mejora la experiencia del usuario. Además, los motores de búsqueda utilizan el título para mostrar enlaces en sus resultados, por lo que un título adecuado puede mejorar la visibilidad de la página en los resultados de búsqueda.
