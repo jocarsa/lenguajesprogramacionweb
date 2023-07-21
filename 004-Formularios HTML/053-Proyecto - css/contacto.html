@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <title>La web de Jose Vicente</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="estilo/estilo.css">
+        <link rel="stylesheet" href="estilo/movil.css">
+        <meta name="viewport" content="width=device-width, user-scalable=no" />
+
+    </head>
+    <body>
+        <header>
+            <div id="logo">
+                <img src="imagenes/logo.png" alt="Logo">
+            </div>
+            <div id="corporativo">
+                <h1>Jose Vicente Carratalá Sanchis</h1>
+                <h2>Programador, formador y diseñador en Valencia, España</h2>
+            </div>
+            <div class="clearfix"></div>
+        </header>
+        
+        <main>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="sobremi.html">Sobre mi</a>
+                    </li>
+                    <li>
+                        <a href="proyectos.html">Proyectos</a>
+                    </li>
+                    <li>
+                        <a href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+            <div id="contenido">
+                <section id="contacto">
+                    <h3>Formulario de contacto</h3>
+                    <form action="procesaformulario.php" method="post">
+                        <label for="nombre">Introduce tu nombre completo:</label>
+                        <input type="text" name="nombre" placeholder="p.ej.:Jose Vicente Carratalá" minlength=5>
+                        <label for="correoelectronico">Introduce tu dirección de correo electrónico:</label>
+                        <input type="email" name="correoelectronico" placeholder="p.ej.:info@tudominio.com">
+                        <input type="submit">
+                    </form>
+                </section>
+            </div>
+            <div class="clearfix"></div>
+        </main>
+        <footer>
+            <p>(c) 2023 Jose Vicente Carratalá Sanchis</p>
+        </footer>
+    </body>
+</html>

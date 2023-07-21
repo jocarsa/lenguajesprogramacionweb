@@ -1,0 +1,165 @@
+@font-face {
+  font-family: ubuntuRegular;
+  src: url(fuentes/Ubuntu-Regular.ttf);
+}
+@font-face {
+  font-family: ubuntuBold;
+  src: url(fuentes/Ubuntu-Bold.ttf);
+}
+@font-face {
+  font-family: Titulo;
+  src: url(fuentes/Titulo.ttf);
+}
+body{
+    background:rgb(220,220,220);
+    background:url("imagenes/fondotransparente.png"),url("imagenes/fondo.jpg");
+}
+header,main,footer{
+    background:white;
+    width:800px;
+    margin:auto;
+    padding:20px;
+    font-family:ubuntuRegular,sans-serif;
+}
+h1{
+    font-family:Titulo,sans-serif;
+    font-weight:normal;
+}
+h3,h4,h5,h6{
+    font-family:ubuntuBold,sans-serif;
+}
+#logo,#corporativo{
+    float:left;
+    background:rgb(50,50,50);
+    color:rgb(220,220,220);
+    height:200px;
+}
+#logo{
+    width:25% 
+}
+#logo img{
+    width:100%;
+}
+#corporativo{
+    width:75%;
+}
+h1,h2{
+    font-size:20px;
+}
+.clearfix{
+    clear:both;
+}
+nav,#contenido{
+    float:left;
+}
+nav{
+    width:25%;
+    padding:20px;
+    box-sizing: border-box;
+}
+#contenido{
+    width:75%;
+}
+nav ul{
+    padding:0px;
+    margin:0px;
+    list-style-type: none;
+}
+nav ul li a{
+    display:block;
+    text-decoration:none;
+    color:inherit;
+    padding-top:5px;
+    padding-bottom:5px;
+    margin-bottom:5px;
+    
+}
+
+footer{
+    text-align:center;
+}
+h1{
+    font-size:40px;
+    padding-top:35px;
+    padding-bottom:0px;
+}
+h2{
+    padding-top:0px;
+    font-size:15px;
+    font-weight:normal;
+}
+header{
+    border-radius:20px 20px 0px 0px;
+}
+#logo{
+    border-radius:10px 0px 0px 10px;
+}
+#corporativo{
+    border-radius:0px 10px 10px 0px;
+}
+main{
+    box-shadow:0px 0px 20px rgba(0,0,0,0.2);
+}
+header,main,footer{
+    position:relative;
+}
+header,footer{
+    z-index:100;
+}
+main{
+    z-index:0;
+}
+h1{
+    text-shadow:0px 5px 5px rgba(255,255,255,0.2);
+}
+p{
+    text-align:justify;
+}
+footer p{
+    text-align:center;
+}
+article img{
+    width:20%;
+    float:left;
+    margin-right:20px;
+    filter: grayscale(0.5);
+}
+#logo img {
+    filter: hue-rotate(300deg);
+    animation:cambiacolor 100s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes cambiacolor{
+    0%{filter: hue-rotate(0deg);}
+    100%{filter: hue-rotate(360deg);}
+}
+
+nav ul li a{
+    padding:5px;
+    padding-left:10px;
+    transition:all 1s;
+}
+nav ul li{
+    margin-bottom:5px;
+    border-bottom:1px solid grey;
+}
+
+nav ul li a:hover{
+    background:rgb(50,50,50);
+    color:rgb(220,220,220);
+    border-radius:15px;
+}
+form input,form select{
+    width:95%;
+    padding:10px;
+    box-sizing: border-box;
+    margin:10px;
+    border-radius:5px;
+    border:1px solid grey;
+    box-shadow:0px 5px 5px rgba(0,0,0,0.1) inset;
+}
+form input[type=submit],form select{
+    box-shadow:0px 5px 5px rgba(0,0,0,0.1);
+}
+
