@@ -1,0 +1,15 @@
+No se recomienda usar las etiquetas de tabla de HTML (`<table>`, `<tr>`, `<td>`, etc.) para maquetar sitios web debido a los siguientes motivos:
+
+1. **Semántica inapropiada:** Las etiquetas de tabla están diseñadas para mostrar datos tabulares, no para la maquetación de páginas web. Al utilizarlas para la disposición de elementos en una página, se compromete la semántica del código, lo que dificulta que los lectores de pantalla y los motores de búsqueda interpreten correctamente la estructura del contenido.
+
+2. **Accesibilidad:** Las tablas no son ideales para la accesibilidad web, ya que pueden resultar confusas para los usuarios con discapacidades visuales que utilizan lectores de pantalla. Un diseño basado en tablas puede dificultar la navegación y comprensión del contenido para estas personas.
+
+3. **Problemas de diseño responsivo:** Las tablas no se adaptan bien a diferentes tamaños de pantalla, lo que dificulta la creación de sitios web responsivos. En dispositivos móviles y tabletas, las tablas pueden estirarse o reducirse excesivamente, haciendo que el contenido sea difícil de leer y usar.
+
+4. **Exceso de código:** Usar tablas para maquetar sitios web puede generar un código HTML innecesariamente complejo y con una cantidad excesiva de etiquetas, lo que dificulta el mantenimiento y la escalabilidad del sitio.
+
+5. **Flexibilidad limitada:** Las tablas no ofrecen la misma flexibilidad que otros enfoques modernos de diseño web, como Flexbox y Grid Layout. Estas técnicas permiten un diseño más fluido y adaptable a diferentes diseños y tamaños de pantalla.
+
+6. **Tiempo de carga y rendimiento:** Usar tablas para maquetar un sitio web puede aumentar el tamaño de la página y afectar el tiempo de carga, especialmente si la tabla contiene muchos elementos o imágenes.
+
+En lugar de usar tablas, se recomienda utilizar enfoques modernos de diseño web como CSS para la maquetación, como Flexbox y Grid Layout. Estas técnicas proporcionan una mayor flexibilidad, una estructura más semántica y una mejor experiencia de usuario en general, especialmente en términos de accesibilidad y diseño responsivo.

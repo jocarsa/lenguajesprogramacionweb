@@ -1,0 +1,7 @@
+En este código, se han agregado nuevos elementos al formulario (`<form>`) para permitir que el usuario ingrese mensajes de texto. Vamos a explicar lo nuevo que aparece:
+
+1. `<label for="mensaje">Introduce tu mensaje:</label>`: Esta línea agrega una etiqueta para el campo de entrada de texto. La etiqueta proporciona una descripción del campo de entrada, lo que ayuda a los usuarios a comprender qué tipo de información se espera que ingresen en ese campo. El atributo `for` en la etiqueta está vinculado al atributo `name` del campo de entrada al que se refiere, en este caso, el campo de texto con el nombre "mensaje". Esto mejora la accesibilidad, ya que los usuarios pueden hacer clic en la etiqueta para enfocar automáticamente el campo de entrada asociado.
+
+2. `<textarea name="mensaje"></textarea>`: Este es un elemento de texto de área múltiple (`<textarea>`) que permite a los usuarios ingresar mensajes más largos o comentarios. El atributo `name` es necesario para identificar el campo cuando se envía el formulario. Los usuarios pueden escribir texto dentro del área del texto que se expandirá automáticamente según el contenido.
+
+Con estas adiciones, se ha agregado un campo de texto más grande donde los usuarios pueden introducir un mensaje o cualquier texto adicional que deseen enviar a través del formulario de contacto. Al hacer clic en el botón "Enviar" (`<input type="submit">`), el formulario se enviará al archivo "procesaformulario.php" en el servidor para su procesamiento.

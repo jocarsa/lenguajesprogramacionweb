@@ -1,0 +1,26 @@
+La etiqueta `<input>` con el tipo de atributo "radio" en HTML se utiliza para crear botones de opción en un formulario web. Los botones de opción permiten a los usuarios seleccionar una opción de un conjunto de opciones relacionadas. Sin embargo, a diferencia de las casillas de verificación (`<input type="checkbox">`), los botones de opción permiten seleccionar solo una opción dentro del grupo.
+
+La estructura básica de la etiqueta `<input>` con el tipo "radio" es la siguiente:
+
+```html
+<input type="radio" name="grupo" id="opcion1" value="valor1">
+<label for="opcion1">Opción 1</label>
+
+<input type="radio" name="grupo" id="opcion2" value="valor2">
+<label for="opcion2">Opción 2</label>
+
+<!-- Puedes agregar más opciones dentro del mismo "name" para formar un grupo de opciones -->
+```
+
+Explicación de los atributos:
+
+- `type="radio"`: Este atributo especifica que se debe crear un botón de opción.
+- `name`: El atributo `name` se utiliza para agrupar las opciones relacionadas. Todas las opciones que compartan el mismo valor en el atributo `name` pertenecerán al mismo grupo, lo que significa que solo se podrá seleccionar una opción dentro de ese grupo.
+- `id`: El atributo `id` se utiliza para asociar el botón de opción con su etiqueta `<label>`. Cuando se hace clic en la etiqueta, el botón de opción también se seleccionará automáticamente. El valor del atributo `id` debe ser igual al valor del atributo `for` en la etiqueta `<label>`.
+- `value`: Este atributo se utiliza para especificar el valor que se enviará al servidor si el botón de opción está seleccionado y el formulario se envía. Cuando el usuario selecciona una opción, el valor especificado en el atributo `value` se enviará al servidor junto con el resto del formulario.
+
+La etiqueta `<label>` se usa como etiqueta descriptiva para el botón de opción, lo que proporciona una descripción del propósito de la opción. El atributo `for` en la etiqueta `<label>` se establece en el mismo valor que el atributo `id` del botón de opción para que estén vinculados. Esto permite hacer clic en la etiqueta para seleccionar el botón de opción correspondiente.
+
+Es importante destacar que, al usar botones de opción, debes asegurarte de que todas las opciones que desees que formen parte del mismo grupo tengan el mismo valor en el atributo `name`. De lo contrario, se tratarían como grupos separados y se permitiría seleccionar más de una opción.
+
+Los botones de opción son especialmente útiles cuando tienes un conjunto de opciones mutuamente excluyentes y deseas que los usuarios seleccionen una sola opción entre ellas. Por ejemplo, puedes usar botones de opción para preguntar por el género de un usuario en un formulario de registro o para permitir que los usuarios seleccionen su método de pago preferido en una tienda en línea.

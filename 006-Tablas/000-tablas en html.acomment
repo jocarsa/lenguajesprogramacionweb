@@ -1,0 +1,37 @@
+En HTML, las tablas se utilizan para organizar datos en filas y columnas, lo que permite mostrar información de manera estructurada y ordenada. Las tablas están compuestas por filas y celdas, y se crean utilizando las etiquetas `<table>`, `<tr>`, `<td>` y `<th>`.
+
+A continuación, se explica el propósito y el uso de cada etiqueta:
+
+1. `<table>`: Esta etiqueta se utiliza para crear la tabla en sí misma. Contiene todas las filas y celdas de la tabla. Es el elemento principal que define el comienzo y el final de la tabla.
+
+2. `<tr>`: Esta etiqueta define una fila en la tabla. Contiene una o más celdas `<td>` o `<th>`. Cada fila representa un conjunto de datos que se mostrará en la tabla.
+
+3. `<td>`: Esta etiqueta se utiliza para crear una celda de datos (data cell) en la tabla. Cada celda contiene la información específica que se muestra en la tabla, como texto, imágenes u otros elementos HTML.
+
+4. `<th>`: Esta etiqueta se utiliza para crear una celda de encabezado (header cell) en la tabla. A diferencia de las celdas de datos, las celdas de encabezado suelen contener texto o contenido que identifica o describe las columnas o filas de la tabla. Se utilizan típicamente en la primera fila (`<tr>`) o en la primera columna para etiquetar los datos.
+
+Aquí hay un ejemplo básico de cómo se estructura una tabla en HTML:
+
+```html
+<table>
+  <tr>
+    <th>Nombre</th>
+    <th>Edad</th>
+    <th>Ocupación</th>
+  </tr>
+  <tr>
+    <td>María</td>
+    <td>30</td>
+    <td>Ingeniera</td>
+  </tr>
+  <tr>
+    <td>Juan</td>
+    <td>25</td>
+    <td>Programador</td>
+  </tr>
+</table>
+```
+
+En este ejemplo, se crea una tabla con tres columnas: "Nombre", "Edad" y "Ocupación". Luego, se agregan tres filas de datos, cada una con la información correspondiente para María y Juan.
+
+Las tablas en HTML son muy versátiles y se utilizan comúnmente para mostrar datos tabulados, como horarios, listas, información tabular, etc. Sin embargo, en el diseño web moderno, se prefiere utilizar otros métodos de diseño y presentación, como Flexbox o Grid, para estructurar el contenido en lugar de tablas, especialmente para maquetación y diseño más complejos. Las tablas se recomiendan especialmente cuando se necesita presentar datos tabulados y no para el diseño de la estructura general de una página web.

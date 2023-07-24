@@ -1,0 +1,29 @@
+En HTML, la etiqueta `<table>` se utiliza para crear tablas, que son una forma de organizar datos en filas y columnas. Las tablas son especialmente útiles cuando se necesita presentar datos tabulados de manera estructurada y ordenada.
+
+La etiqueta `<table>` define el comienzo de una tabla y puede contener varios elementos secundarios que representan las filas y celdas de la tabla. Los elementos principales utilizados en una tabla son:
+
+1. `<tr>`: Representa una fila en la tabla. Dentro de esta etiqueta, se colocan las celdas que forman esa fila. Cada fila contiene celdas de datos (`<td>`) o celdas de encabezado (`<th>`).
+
+2. `<td>`: Representa una celda de datos (data cell) en la tabla. Cada celda contiene información específica que se mostrará en la tabla, como texto, imágenes u otros elementos HTML.
+
+3. `<th>`: Representa una celda de encabezado (header cell) en la tabla. A diferencia de las celdas de datos, las celdas de encabezado suelen contener texto o contenido que identifica o describe las columnas o filas de la tabla. Se utilizan típicamente en la primera fila (`<tr>`) o en la primera columna para etiquetar los datos.
+
+La estructura básica de una tabla en HTML se ve así:
+
+```html
+<table>
+  <tr>
+    <th>Encabezado de columna 1</th>
+    <th>Encabezado de columna 2</th>
+  </tr>
+  <tr>
+    <td>Dato 1</td>
+    <td>Dato 2</td>
+  </tr>
+  <!-- Otras filas y celdas pueden agregarse aquí -->
+</table>
+```
+
+En este ejemplo, se crea una tabla con dos columnas. La primera fila (`<tr>`) contiene los encabezados de columna utilizando la etiqueta `<th>`, y la segunda fila contiene los datos utilizando la etiqueta `<td>`.
+
+Es importante tener en cuenta que, aunque las tablas son una herramienta útil para mostrar datos tabulados, se recomienda utilizarlas con moderación y solo para propósitos de presentación de datos. Para diseños y maquetaciones más complejas de páginas web, se prefiere el uso de otras técnicas como Flexbox o Grid. Además, es fundamental asegurarse de que las tablas estén diseñadas de manera accesible y sean adecuadamente etiquetadas con encabezados para que los usuarios con discapacidades puedan entender su contenido correctamente.

@@ -1,0 +1,19 @@
+Antes de la introducción y popularización de CSS (hojas de estilo en cascada), la maquetación con tablas era comúnmente utilizada para diseñar y estructurar sitios web. Esto se debía a los siguientes motivos:
+
+1. **Limitaciones de HTML:** En las primeras versiones de HTML, las opciones de diseño y maquetación eran bastante limitadas. No existían elementos específicos para crear diseños complejos, como columnas, bloques flotantes o disposiciones en rejilla. Las tablas, por otro lado, permitían organizar los contenidos en filas y columnas, lo que proporcionaba una estructura aparentemente más sofisticada.
+
+2. **Uniformidad en la presentación:** En el pasado, diferentes navegadores tenían interpretaciones inconsistentes de las reglas de presentación y diseño de HTML. Esto provocaba que los sitios web se vieran de manera muy diferente según el navegador utilizado. Las tablas ofrecían una forma de lograr una presentación más uniforme, independientemente del navegador, ya que el diseño se definía directamente en el código de la tabla.
+
+3. **Familiaridad con tablas:** Antes de la adopción generalizada de CSS, muchos diseñadores y desarrolladores ya estaban familiarizados con el uso de tablas en otras aplicaciones, como hojas de cálculo o programas de diseño gráfico. Por lo tanto, utilizar tablas para maquetar sitios web resultaba más cómodo y fácil para ellos.
+
+Sin embargo, aunque las tablas fueron una solución provisional en su momento, su uso para maquetar sitios web presentaba importantes desventajas y limitaciones:
+
+1. **Problemas de accesibilidad:** El uso de tablas para maquetación puede dificultar la navegación y comprensión del contenido para personas con discapacidades visuales que utilizan lectores de pantalla. Las tablas no proporcionan la misma estructura semántica que elementos HTML adecuados para la maquetación.
+
+2. **Flexibilidad y mantenimiento:** El diseño basado en tablas era menos flexible y más difícil de mantener, especialmente en comparación con las capacidades que ofrece CSS. Realizar cambios en el diseño implicaba modificar la estructura de la tabla, lo que podía ser una tarea laboriosa y propensa a errores.
+
+3. **Tiempo de carga y rendimiento:** Los sitios web maquetados con tablas solían tener un código HTML más pesado, lo que afectaba el tiempo de carga y rendimiento de la página.
+
+4. **Incompatibilidad con dispositivos móviles:** Los diseños basados en tablas no se adaptaban bien a diferentes tamaños de pantalla, lo que dificultaba la visualización y navegación en dispositivos móviles y tabletas.
+
+Con el tiempo, la adopción de estándares web más modernos, como CSS y su evolución continua, permitió separar el contenido del diseño y presentación visual. Esto mejoró significativamente la flexibilidad, accesibilidad, mantenibilidad y rendimiento de los sitios web, lo que llevó a dejar de utilizar tablas para la maquetación y a adoptar en su lugar enfoques más adecuados y versátiles.

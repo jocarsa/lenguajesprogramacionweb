@@ -1,0 +1,42 @@
+La propiedad de ordenación Z en CSS, también conocida como `z-index`, es una propiedad que se utiliza para controlar el apilamiento y la superposición de elementos posicionados en una página web. En otras palabras, define el orden en el que los elementos se muestran en el eje Z (profundidad) en relación con otros elementos.
+
+Cuando creamos páginas web, los elementos se organizan en un plano 2D, donde cada elemento tiene una posición en el eje X (horizontal) y el eje Y (vertical). Sin embargo, debido a la naturaleza de la representación en capas de los elementos HTML y CSS, a veces algunos elementos pueden solaparse entre sí. La propiedad `z-index` resuelve esto permitiendo que los elementos se desplacen hacia adelante o hacia atrás en el eje Z, creando un efecto tridimensional.
+
+La sintaxis básica de `z-index` es la siguiente:
+
+```css
+selector {
+  z-index: valor;
+}
+```
+
+- `valor`: Especifica el orden de apilamiento del elemento. Los valores pueden ser números enteros positivos o negativos, y también se puede utilizar la palabra clave `auto`.
+
+Los elementos con un valor de `z-index` mayor se superpondrán a aquellos con un valor menor. Si dos elementos tienen el mismo valor de `z-index`, el orden de apilamiento se basará en el orden de aparición en el código HTML, es decir, el último elemento en aparecer en el código se superpondrá a los anteriores.
+
+Es importante tener en cuenta que la propiedad `z-index` solo se aplica a elementos con posicionamiento explícito (por ejemplo, `position: relative`, `position: absolute` o `position: fixed`). Los elementos con posicionamiento estático no se ven afectados por `z-index`.
+
+Ejemplo de uso:
+
+```html
+<div class="elemento1">Elemento 1</div>
+<div class="elemento2">Elemento 2</div>
+```
+
+```css
+.elemento1 {
+  position: relative;
+  z-index: 2;
+  background-color: red;
+}
+
+.elemento2 {
+  position: relative;
+  z-index: 1;
+  background-color: blue;
+}
+```
+
+En el ejemplo anterior, hemos creado dos elementos con posicionamiento relativo. El "Elemento 1" tiene un valor de `z-index` de `2`, mientras que el "Elemento 2" tiene un valor de `z-index` de `1`. Como resultado, el "Elemento 1" se superpondrá al "Elemento 2" debido a su mayor valor de `z-index`, y se mostrará en la parte superior de la pila. El "Elemento 2" quedará oculto parcialmente detrás del "Elemento 1".
+
+La propiedad `z-index` es una herramienta útil cuando necesitas controlar la disposición visual de los elementos superpuestos en tu página web, permitiendo crear efectos de capas y mejorar la experiencia de usuario. Sin embargo, es importante usarla con cuidado para evitar posibles problemas de superposición no deseados o comportamientos inesperados en el diseño.

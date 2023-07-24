@@ -1,0 +1,23 @@
+En este código, se han agregado estilos CSS para los elementos `<input>` y `<select>` dentro de un formulario (`form`). Veamos las explicaciones de cada parte:
+
+1. `form input, form select`: Esta es una regla de selección en CSS que aplica estilos a todos los elementos `<input>` y `<select>` que se encuentren dentro de un formulario (`form`).
+
+2. `width:95%`: Establece que el ancho de los elementos `<input>` y `<select>` será del 95% del ancho de su contenedor.
+
+3. `padding:10px`: Agrega un relleno interno de 10 píxeles alrededor de los elementos, lo que crea un espacio entre el contenido y los bordes del elemento.
+
+4. `box-sizing: border-box`: Este estilo asegura que el tamaño total del elemento incluirá tanto el contenido, el relleno y el borde, evitando que el relleno añadido afecte al ancho total del elemento.
+
+5. `margin:10px`: Agrega un margen externo de 10 píxeles alrededor de los elementos, lo que crea un espacio entre los elementos adyacentes.
+
+6. `border-radius:5px`: Aplica un radio de borde de 5 píxeles, lo que redondea las esquinas de los elementos, proporcionando un aspecto más suavizado.
+
+7. `border:1px solid grey`: Agrega un borde sólido de 1 píxel alrededor de los elementos, con un color gris.
+
+8. `box-shadow:0px 5px 5px rgba(0,0,0,0.1) inset;`: Establece una sombra interna en los elementos con un desplazamiento horizontal de 0 píxeles, un desplazamiento vertical de 5 píxeles y un radio de desenfoque de 5 píxeles. La sombra se muestra en un tono gris oscuro con un nivel de opacidad de 0.1.
+
+9. `form input[type=submit], form select`: Esta es otra regla de selección en CSS que aplica estilos específicos a los elementos `<input>` de tipo "submit" y a los elementos `<select>` dentro de un formulario (`form`).
+
+10. `box-shadow:0px 5px 5px rgba(0,0,0,0.1);`: En esta regla, se establece una nueva sombra, que es una sombra externa con los mismos valores que la sombra interna anterior. Esto significa que tanto los botones de envío (`<input type="submit">`) como los campos de selección (`<select>`) tendrán una sombra externa con un desplazamiento de 5 píxeles en el eje vertical y un radio de desenfoque de 5 píxeles. La sombra externa se muestra en un tono gris oscuro con un nivel de opacidad de 0.1.
+
+En resumen, estas reglas CSS agregan estilos comunes a los elementos de formulario (`<input>` y `<select>`) para que se vean consistentes y tengan un aspecto más atractivo y cohesivo en la página web. También se agrega una sombra sutil para dar un poco de profundidad a los elementos y resaltarlos visualmente.

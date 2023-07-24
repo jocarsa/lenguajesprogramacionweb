@@ -1,0 +1,25 @@
+La etiqueta `<audio>` es una etiqueta HTML5 que se utiliza para insertar contenido de audio en una página web. Al igual que la etiqueta `<video>`, la etiqueta `<audio>` permite a los desarrolladores mostrar y reproducir audio directamente en la página sin necesidad de utilizar complementos externos como Flash.
+
+La estructura básica de la etiqueta `<audio>` es la siguiente:
+
+```html
+<audio controls>
+    <source src="ruta_del_audio.mp3" type="audio/mpeg">
+    <!-- Puedes agregar más elementos <source> para diferentes formatos de audio -->
+    Tu navegador no admite el elemento de audio.
+</audio>
+```
+
+Explicación de los atributos y elementos:
+
+- `<audio>`: Esta es la etiqueta principal para agregar contenido de audio en la página web.
+- `controls`: El atributo "controls" es opcional y permite mostrar controles de reproducción predeterminados, como play, pausa, volumen, etc., para que los usuarios puedan interactuar con el audio.
+- `<source>`: La etiqueta `<source>` se utiliza para definir la ubicación del archivo de audio y especificar su tipo o formato MIME. Al igual que con la etiqueta `<video>`, se pueden agregar múltiples elementos `<source>` para proporcionar diferentes formatos de audio y permitir que el navegador elija el formato compatible más adecuado. El navegador seleccionará el primer formato que pueda reproducir. Si no se admite ninguno de los formatos, el contenido entre las etiquetas `<audio>` se mostrará como un mensaje alternativo.
+- `src`: El atributo "src" en la etiqueta `<source>` especifica la ruta o URL del archivo de audio.
+- `type`: El atributo "type" en la etiqueta `<source>` especifica el tipo o formato MIME del archivo de audio. Es importante para que el navegador pueda determinar qué formatos de audio puede reproducir.
+
+Es importante proporcionar el audio en diferentes formatos, como MP3, Ogg y WAV, utilizando múltiples elementos `<source>`. Esto asegura que el audio sea compatible con la mayoría de los navegadores, ya que algunos navegadores pueden admitir ciertos formatos de audio mientras que otros no.
+
+Al igual que con la etiqueta `<video>`, si el navegador no admite la etiqueta `<audio>` o ninguno de los formatos proporcionados, se mostrará el contenido alternativo que se encuentra entre las etiquetas `<audio>`. Por lo tanto, es una buena práctica incluir un mensaje de respaldo o enlace de descarga para los usuarios en caso de que no puedan escuchar el audio.
+
+En resumen, la etiqueta `<audio>` de HTML5 es una herramienta útil para mostrar contenido de audio directamente en una página web, lo que brinda a los desarrolladores más control sobre la reproducción y presentación de audio y una experiencia multimedia más rica para los usuarios.

@@ -1,0 +1,38 @@
+Las transiciones en CSS son una forma de agregar efectos de animación suaves y elegantes a los cambios de estilo de los elementos HTML. Permiten que un elemento cambie gradualmente de un estado a otro a lo largo de un período de tiempo definido. Estas transiciones se utilizan comúnmente para mejorar la experiencia del usuario al proporcionar una sensación de fluidez en la interfaz de un sitio web.
+
+Para crear una transición en CSS, primero se debe definir una propiedad que se desea animar y luego especificar la duración y otras opciones relacionadas con la transición.
+
+La sintaxis básica de una transición en CSS es la siguiente:
+
+```css
+selector {
+  propiedad: valor-inicial;
+  transition: propiedad duración [retraso] [función-temporización];
+}
+```
+
+Donde:
+- **selector**: es el selector de elementos HTML al que se aplicará la transición.
+- **propiedad**: es la propiedad CSS que se desea animar, como el color, el tamaño, la posición, la opacidad, etc.
+- **valor-inicial**: es el valor inicial de la propiedad antes de que comience la transición.
+- **duración**: es el tiempo que tomará la transición en segundos o milisegundos. Por ejemplo, `0.5s` para medio segundo o `500ms` para medio segundo.
+- **retraso** (opcional): es el tiempo de espera antes de que comience la transición. Puede ser útil para sincronizar transiciones.
+- **función-temporización** (opcional): es una función que define cómo cambia la velocidad de la transición a medida que progresa en el tiempo. Puede tener valores como `ease` (predeterminado), `linear`, `ease-in`, `ease-out`, `ease-in-out`, etc.
+
+Ejemplo de una transición CSS:
+
+```css
+button {
+  background-color: blue;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: red;
+}
+```
+
+En este ejemplo, el botón cambiará gradualmente su color de fondo de azul a rojo cuando el cursor se coloque sobre él. La transición tendrá una duración de 0.3 segundos (300 milisegundos) con la función de temporización predeterminada "ease".
+
+Las transiciones en CSS son una forma sencilla y poderosa de mejorar la apariencia y la interacción de un sitio web, y se pueden combinar con otros efectos y animaciones para crear experiencias más dinámicas para los usuarios.

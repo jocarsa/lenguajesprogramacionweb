@@ -1,0 +1,73 @@
+Las diferencias principales entre los dos códigos son los siguientes:
+
+Primer Código:
+```html
+<!doctype html>
+<html lang="es">
+<head>
+    <title>La web de Jose Vicente</title>
+    <!-- Encabezado, enlaces a archivos CSS y configuración del viewport -->
+</head>
+<body>
+    <header>
+        <!-- Cabecera con logo y datos corporativos -->
+    </header>
+    <main>
+        <nav>
+            <!-- Barra de navegación con enlaces a otras páginas -->
+        </nav>
+        <div id="contenido">
+            <!-- Contenido principal de la página: "Esta es la página de proyectos" -->
+        </div>
+        <div class="clearfix"></div>
+    </main>
+    <footer>
+        <p>(c) 2023 Jose Vicente Carratalá Sanchis</p>
+    </footer>
+</body>
+</html>
+```
+
+Segundo Código:
+```html
+<!doctype html>
+<html lang="es">
+<head>
+    <title>La web de Jose Vicente</title>
+    <!-- Encabezado, enlaces a archivos CSS y configuración del viewport -->
+</head>
+<body>
+    <header>
+        <!-- Cabecera con logo y datos corporativos -->
+    </header>
+    <main>
+        <nav>
+            <!-- Barra de navegación con enlaces a otras páginas -->
+        </nav>
+        <div id="contenido">
+            <section id="proyectos">
+                <h3>Proyectos</h3>
+                <table>
+                    <thead></thead>
+                    <tbody>
+                        <!-- Espacio para llenar con contenido de proyectos en forma de tabla -->
+                    </tbody>
+                </table>
+            </section>
+        </div>
+        <div class="clearfix"></div>
+    </main>
+    <footer>
+        <p>(c) 2023 Jose Vicente Carratalá Sanchis</p>
+    </footer>
+</body>
+</html>
+```
+
+Las diferencias son:
+
+1. Contenido del `<div id="contenido">`: En el primer código, el contenido dentro del `<div>` con id "contenido" es simplemente un texto que indica "Esta es la página de proyectos". En el segundo código, se ha agregado una sección con id "proyectos" que incluye un encabezado (`<h3>Proyectos</h3>`) y una tabla (`<table>...</table>`) que parece estar destinada a mostrar información sobre los proyectos. Sin embargo, la tabla está vacía en el código proporcionado, por lo que no hay contenido visible en ella.
+
+2. Sección de Proyectos: El segundo código incluye una nueva sección con id "proyectos" que no estaba presente en el primer código. Esta sección parece estar destinada a mostrar información detallada sobre los proyectos del sitio web.
+
+En resumen, el segundo código ha agregado una nueva sección con la intención de mostrar información sobre los proyectos en forma de tabla, pero actualmente la tabla está vacía y no se muestra ningún contenido visible en ella.

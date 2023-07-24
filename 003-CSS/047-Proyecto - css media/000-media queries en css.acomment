@@ -1,0 +1,27 @@
+Las media queries en CSS son una característica que permite aplicar estilos diferentes a un documento HTML en función de ciertas características del dispositivo o del medio en el que se esté visualizando. Esto permite crear diseños responsivos que se adapten automáticamente a diferentes tamaños de pantalla y dispositivos, como computadoras de escritorio, tabletas y teléfonos móviles.
+
+La sintaxis básica de una media query es la siguiente:
+
+```css
+@media tipo-de-medio y (condiciones) {
+  /* Estilos que se aplicarán cuando se cumplan las condiciones */
+}
+```
+
+- `tipo-de-medio`: especifica el tipo de medio al que se aplicarán los estilos. Los valores más comunes son `screen` (para pantallas), `print` (para impresión), `all` (para todos los medios) y `speech` (para dispositivos de lectura en voz alta, como lectores de pantalla).
+- `condiciones`: es donde se definen las características del dispositivo o medio para el cual se aplicarán los estilos. Por ejemplo, las condiciones pueden incluir el ancho de la pantalla (`max-width`, `min-width`), la altura de la pantalla (`max-height`, `min-height`), la orientación (`orientation: portrait` o `orientation: landscape`), la resolución de pantalla (`min-resolution`, `max-resolution`) y otras características específicas del dispositivo.
+
+Ejemplo de una media query que aplica estilos diferentes cuando el ancho de la pantalla es menor o igual a 768 píxeles:
+
+```css
+@media screen and (max-width: 768px) {
+  /* Estilos para pantallas con ancho menor o igual a 768px */
+  body {
+    font-size: 16px;
+  }
+}
+```
+
+En este ejemplo, cuando la pantalla tiene un ancho menor o igual a 768 píxeles, se aplicará el estilo definido para el elemento `body`, que aumenta el tamaño de fuente a 16 píxeles.
+
+Las media queries son fundamentales para el diseño web responsivo, ya que permiten adaptar el diseño y los estilos de una página web a diferentes dispositivos y tamaños de pantalla, mejorando así la experiencia del usuario y la legibilidad del contenido. Con el uso adecuado de media queries, los desarrolladores web pueden crear sitios web que se vean y funcionen bien en una amplia variedad de dispositivos, desde computadoras de escritorio hasta dispositivos móviles.

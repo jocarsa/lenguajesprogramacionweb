@@ -1,0 +1,27 @@
+La etiqueta `<footer>` en HTML es un elemento semántico que se utiliza para representar el contenido que se encuentra en el pie de página de una página web o de una sección específica de la misma. El pie de página generalmente contiene información de carácter descriptivo o de navegación que es común a toda la página, o bien, detalles específicos sobre la sección en la que se encuentra.
+
+Estructuralmente, la etiqueta `<footer>` es un contenedor en línea, lo que significa que su contenido se muestra en la misma línea que el resto del contenido que lo rodea. Suele ubicarse al final del flujo de contenido, justo después de la etiqueta `<main>` o del contenido principal de la página.
+
+La sintaxis básica para la etiqueta `<footer>` es la siguiente:
+
+```html
+<footer>
+    <!-- Contenido del pie de página -->
+</footer>
+```
+
+Dentro del elemento `<footer>`, se pueden agregar diversos elementos, como texto, enlaces, imágenes, listas, formularios y otros elementos HTML, para proporcionar la información deseada en el pie de página.
+
+Algunos ejemplos comunes de contenido que se suele incluir en un pie de página son:
+
+1. Información de contacto: Como dirección, número de teléfono, correo electrónico u otros detalles para que los usuarios puedan ponerse en contacto con el propietario del sitio web.
+
+2. Enlaces de navegación: Enlaces a páginas importantes del sitio, como "Inicio", "Sobre nosotros", "Servicios", "Política de privacidad" y "Términos de uso".
+
+3. Derechos de autor y créditos: Atribuciones de derechos de autor, licencias y reconocimientos a autores o fuentes de contenido.
+
+4. Vínculos a redes sociales: Enlaces a perfiles de redes sociales para que los visitantes puedan seguir o compartir el contenido.
+
+5. Información legal: Avisos legales, política de cookies o enlaces a políticas de privacidad.
+
+El uso adecuado de la etiqueta `<footer>` ayuda a mejorar la accesibilidad y estructura semántica del contenido, ya que proporciona una clara separación visual entre el contenido principal y la información secundaria o de contexto ubicada en el pie de página. Además, los motores de búsqueda y lectores de pantalla pueden identificar y utilizar esta información correctamente, lo que mejora la experiencia de usuario y la indexación del sitio web en los resultados de búsqueda.

@@ -1,0 +1,62 @@
+Las animaciones en CSS permiten crear efectos de movimiento y cambio de estilo en elementos HTML de una manera más compleja y controlada que las transiciones. A diferencia de las transiciones que solo animan cambios de estado de una propiedad a otra, las animaciones en CSS permiten definir múltiples fotogramas clave (keyframes) y controlar cómo se aplican los estilos en cada uno de ellos a lo largo del tiempo.
+
+Para crear una animación en CSS, se utilizan las reglas `@keyframes` para definir una serie de fotogramas clave que representan los diferentes estados de la animación. Luego, se aplica la animación a un elemento usando la propiedad `animation`.
+
+La sintaxis básica para definir una animación en CSS es la siguiente:
+
+```css
+@keyframes nombre-de-la-animacion {
+  0% {
+    /* Estilos para el estado inicial (fotograma 0%) */
+  }
+  50% {
+    /* Estilos para un estado intermedio (fotograma 50%) */
+  }
+  100% {
+    /* Estilos para el estado final (fotograma 100%) */
+  }
+}
+```
+
+Luego, para aplicar la animación a un elemento, se usa la propiedad `animation`:
+
+```css
+selector {
+  animation: nombre-de-la-animacion duración [retraso] [función-temporización] [iteración] [dirección] [relleno-modo] [estado-inicial];
+}
+```
+
+Donde:
+- `nombre-de-la-animacion`: es el nombre que se le dio a los keyframes en la regla `@keyframes`.
+- `duración`: es el tiempo que tomará completar una iteración de la animación, en segundos o milisegundos.
+- `retraso` (opcional): es el tiempo de espera antes de que comience la animación.
+- `función-temporización` (opcional): es la función que define cómo cambia la velocidad de la animación a medida que progresa en el tiempo.
+- `iteración` (opcional): es el número de veces que se repetirá la animación (`infinite` para que se repita indefinidamente).
+- `dirección` (opcional): define si la animación se ejecutará hacia adelante, hacia atrás o alternará entre ambas direcciones.
+- `relleno-modo` (opcional): define qué estilos se aplicarán antes y después de que se ejecute la animación.
+- `estado-inicial` (opcional): define los estilos iniciales antes de que comience la animación.
+
+Ejemplo de una animación CSS:
+
+```css
+@keyframes mover-izquierda-derecha {
+  0% {
+    left: 0;
+  }
+  50% {
+    left: 200px;
+  }
+  100% {
+    left: 0;
+  }
+}
+
+#mi-elemento {
+  position: relative;
+  animation: mover-izquierda-derecha 2s linear infinite;
+}
+```
+
+En este ejemplo, el elemento con el id `mi-elemento` se moverá de izquierda a derecha y luego volverá a su posición original en un bucle infinito, con una duración de 2 segundos y una función de temporización lineal.
+
+Las animaciones en CSS son una herramienta poderosa para crear efectos de movimiento y transiciones complejas en sitios web, y se pueden combinar con otros estilos y efectos para crear experiencias interactivas y llamativas para los usuarios.

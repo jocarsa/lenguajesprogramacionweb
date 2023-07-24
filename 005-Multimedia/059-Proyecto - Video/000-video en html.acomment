@@ -1,0 +1,25 @@
+La etiqueta `<video>` es una etiqueta HTML5 que se utiliza para insertar contenido de video en una página web. Permite a los desarrolladores mostrar videos reproducibles directamente en la página sin necesidad de utilizar complementos externos como Flash. Esta etiqueta es una parte importante de HTML5 y ha mejorado significativamente la forma en que se maneja el contenido multimedia en la web.
+
+La estructura básica de la etiqueta `<video>` es la siguiente:
+
+```html
+<video controls>
+    <source src="ruta_del_video.mp4" type="video/mp4">
+    <!-- Puedes agregar más elementos <source> para diferentes formatos de video -->
+    Tu navegador no admite el elemento de video.
+</video>
+```
+
+Explicación de los atributos y elementos:
+
+- `<video>`: Esta es la etiqueta principal para agregar un video en la página web.
+- `controls`: El atributo "controls" es opcional y permite mostrar controles de reproducción predeterminados, como play, pausa, volumen, etc., para que los usuarios puedan interactuar con el video.
+- `<source>`: La etiqueta `<source>` se utiliza para definir la ubicación del archivo de video y especificar su tipo o formato MIME. Se pueden agregar múltiples elementos `<source>` para proporcionar diferentes formatos de video y permitir que el navegador elija el formato compatible más adecuado. El navegador seleccionará el primer formato que pueda reproducir. Si no se admite ninguno de los formatos, el contenido entre las etiquetas `<video>` se mostrará como un mensaje alternativo.
+- `src`: El atributo "src" en la etiqueta `<source>` especifica la ruta o URL del archivo de video.
+- `type`: El atributo "type" en la etiqueta `<source>` especifica el tipo o formato MIME del archivo de video. Es importante para que el navegador pueda determinar qué formatos de video puede reproducir.
+
+Es importante proporcionar el video en diferentes formatos, como MP4, WebM y Ogg, utilizando múltiples elementos `<source>`. Esto asegura que el video sea compatible con la mayoría de los navegadores, ya que algunos navegadores pueden admitir ciertos formatos de video mientras que otros no.
+
+Además, si el navegador no admite la etiqueta `<video>` o ninguno de los formatos proporcionados, se mostrará el contenido alternativo que se encuentra entre las etiquetas `<video>`. Por lo tanto, es una buena práctica incluir un mensaje de respaldo o enlace de descarga para los usuarios en caso de que no puedan ver el video.
+
+En resumen, la etiqueta `<video>` de HTML5 es una herramienta poderosa para mostrar contenido de video directamente en una página web, lo que brinda a los desarrolladores más control sobre la reproducción y presentación de videos y una experiencia multimedia más rica para los usuarios.
