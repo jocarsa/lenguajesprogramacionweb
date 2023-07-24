@@ -1,0 +1,40 @@
+En el código proporcionado, se han agregado tres bloques de definiciones `@font-face`. Estos bloques permiten cargar fuentes personalizadas para ser utilizadas en el diseño del sitio web. A continuación, explicaré lo nuevo que aparece:
+
+1. `@font-face`: Es una regla en CSS que permite al desarrollador definir una fuente personalizada que no está instalada en el sistema del usuario. Se carga directamente desde el servidor web y se puede utilizar para estilizar el texto de una manera única.
+
+2. Primer bloque `@font-face`:
+```
+@font-face {
+  font-family: ubuntuRegular;
+  src: url(fuentes/Ubuntu-Regular.ttf);
+}
+```
+En este bloque, se define una fuente personalizada llamada `ubuntuRegular` utilizando la fuente TrueType (TTF) "Ubuntu-Regular.ttf". Esta fuente será utilizada en el elemento `<header>`, `<main>`, y `<footer>` para el contenido del sitio web.
+
+3. Segundo bloque `@font-face`:
+```
+@font-face {
+  font-family: ubuntuBold;
+  src: url(fuentes/Ubuntu-Bold.ttf);
+}
+```
+En este bloque, se define otra fuente personalizada llamada `ubuntuBold` utilizando la fuente TrueType (TTF) "Ubuntu-Bold.ttf". Esta fuente será utilizada para los encabezados de nivel 3, 4, 5 y 6 (`<h3>`, `<h4>`, `<h5>`, `<h6>`).
+
+4. Tercer bloque `@font-face`:
+```
+@font-face {
+  font-family: Titulo;
+  src: url(fuentes/Titulo.ttf);
+}
+```
+En este bloque, se define una tercera fuente personalizada llamada `Titulo` utilizando la fuente TrueType (TTF) "Titulo.ttf". Esta fuente será utilizada para los encabezados de nivel 1 (`<h1>`), y se establece con `font-weight:normal;` para asegurarse de que la fuente se muestre en su versión normal, sin negrita.
+
+En el resto del código, se aplican estas fuentes personalizadas en diferentes elementos del sitio web:
+
+- Para los elementos `<header>`, `<main>`, y `<footer>`, se utiliza la fuente `ubuntuRegular` como la primera opción y, si no está disponible, se utiliza la fuente `sans-serif`.
+
+- Para los elementos `<h1>`, se utiliza la fuente `Titulo` como la primera opción y, si no está disponible, se utiliza la fuente `sans-serif`. Además, se define el tamaño del texto a 40px.
+
+- Para los elementos de encabezado de nivel 3, 4, 5 y 6 (`<h3>`, `<h4>`, `<h5>`, `<h6>`), se utiliza la fuente `ubuntuBold` como la primera opción y, si no está disponible, se utiliza la fuente `sans-serif`.
+
+Con estas definiciones `@font-face`, se pueden utilizar fuentes personalizadas en el sitio web para tener un aspecto visual distintivo y único en los encabezados y el contenido principal.

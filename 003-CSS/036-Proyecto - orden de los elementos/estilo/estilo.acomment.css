@@ -1,0 +1,9 @@
+En el código proporcionado, se han agregado nuevas propiedades a los selectores `header`, `main`, y `footer`. A continuación, explicaré lo nuevo que aparece:
+
+1. `header,main,footer { position:relative; }`: Se agrega la propiedad `position:relative;` a los selectores `header`, `main` y `footer`. Esto establece que los elementos `<header>`, `<main>` y `<footer>` tendrán un posicionamiento relativo con respecto a su posición normal en el flujo del documento. La propiedad `position:relative;` es necesaria para que la propiedad `z-index` funcione correctamente.
+
+2. `header,footer { z-index:100; }`: Se agrega la propiedad `z-index:100;` a los selectores `header` y `footer`. La propiedad `z-index` determina la posición en el eje Z (la profundidad) de un elemento en relación con otros elementos. Al asignar un valor mayor a `z-index`, el elemento se posiciona en un nivel superior en el eje Z y estará delante de elementos con un valor `z-index` menor. En este caso, se establece un valor de `100` para `z-index`, lo que coloca los elementos `<header>` y `<footer>` en un nivel superior en la pila de capas.
+
+3. `main { z-index:0; }`: Se agrega la propiedad `z-index:0;` al selector `main`. Esto coloca el elemento `<main>` en un nivel inferior en la pila de capas en comparación con los elementos `<header>` y `<footer>`. Al asignar un valor `z-index` de `0`, el elemento `<main>` se coloca detrás de otros elementos con `z-index` mayor, creando una especie de "fondo" para los elementos que tienen un `z-index` más alto.
+
+En resumen, las nuevas propiedades aplicadas a los selectores `header`, `main`, y `footer` son `position:relative;` y `z-index`, que se utilizan para ajustar la superposición de los elementos en el eje Z y determinar su posición vertical en la pila de capas. Con estas propiedades, se puede controlar qué elementos se muestran delante de otros en el diseño y, así, crear un efecto de capas y profundidad visual en la página.

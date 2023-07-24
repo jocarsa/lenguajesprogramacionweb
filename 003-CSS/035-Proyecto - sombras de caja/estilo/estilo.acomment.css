@@ -1,0 +1,17 @@
+En el código proporcionado, hay una nueva propiedad agregada al selector `main`. A continuación, explicaré lo nuevo que aparece:
+
+1. `main`: Este selector aplica estilos al elemento `<main>` del documento HTML. El elemento `<main>` es una etiqueta de HTML5 que se utiliza para representar el contenido principal del documento.
+
+   - `box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);`: Esta propiedad crea una sombra (shadow) alrededor del elemento `<main>`. Los parámetros utilizados en `box-shadow` son:
+
+     - `0px`: Desplazamiento horizontal de la sombra. En este caso, no hay desplazamiento horizontal, ya que se especifica `0px`.
+
+     - `0px`: Desplazamiento vertical de la sombra. En este caso, no hay desplazamiento vertical, ya que se especifica `0px`.
+
+     - `20px`: Proporciona un radio de desenfoque a la sombra, creando una apariencia más difuminada.
+
+     - `rgba(0, 0, 0, 0.2)`: Establece el color y la opacidad de la sombra. En este caso, el color de sombra es negro, representado por `rgba(0, 0, 0)`, y la opacidad es 0.2, que crea una sombra más tenue (20% de opacidad).
+
+El resultado de esta nueva propiedad es que el elemento `<main>` tendrá una sombra suave y difuminada alrededor de él, lo que puede ayudar a resaltar y dar profundidad al contenido principal del sitio web.
+
+El resto del código sigue siendo el mismo con estilos para los elementos `<body>`, `<header>`, `<footer>`, `<nav>`, `<ul>`, `<li>`, `<a>`, etc., que definen el diseño del sitio web utilizando CSS. Además, se aplican bordes redondeados a los elementos `#logo` y `#corporativo` para mejorar el aspecto visual del diseño.

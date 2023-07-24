@@ -1,0 +1,25 @@
+La etiqueta `<form>` en HTML es un elemento que se utiliza para crear un formulario en una página web. Los formularios son una parte esencial de la interacción entre los usuarios y los sitios web, ya que permiten recopilar información y datos de los usuarios.
+
+La etiqueta `<form>` tiene varios atributos que se utilizan para configurar cómo se enviarán y procesarán los datos del formulario. Los atributos más comunes son:
+
+- `action`: Especifica la URL del script del servidor que se utilizará para procesar los datos del formulario cuando el usuario lo envíe. El atributo `action` puede ser una dirección URL relativa o absoluta.
+
+- `method`: Define el método HTTP que se utilizará para enviar los datos del formulario al servidor. Los valores más comunes son "GET" y "POST". El método "GET" agrega los datos del formulario a la URL y es adecuado para formularios que envían información no confidencial, como búsquedas. El método "POST" envía los datos del formulario en el cuerpo de la solicitud HTTP y es más adecuado para enviar información confidencial, como contraseñas.
+
+- `name`: Asigna un nombre al formulario, lo que permite identificarlo fácilmente en el código HTML o en scripts de JavaScript.
+
+- `enctype`: Especifica cómo se codificarán los datos del formulario antes de enviarlos al servidor. El valor predeterminado es "application/x-www-form-urlencoded", que es adecuado para la mayoría de los formularios. También se puede utilizar "multipart/form-data" para enviar archivos binarios, como imágenes.
+
+La estructura básica de un formulario en HTML utilizando la etiqueta `<form>` es la siguiente:
+
+```html
+<form action="/ruta_del_servidor" method="POST" enctype="application/x-www-form-urlencoded">
+  <!-- Aquí van los elementos del formulario -->
+</form>
+```
+
+Dentro de la etiqueta `<form>`, se colocan los elementos del formulario, como campos de entrada de texto, casillas de verificación, botones de opción, áreas de texto, etc. Estos elementos utilizan otras etiquetas HTML, como `<input>`, `<textarea>`, `<select>`, entre otras, para crear los diversos tipos de campos que se pueden mostrar en un formulario.
+
+Cuando un usuario completa los campos del formulario y hace clic en el botón de envío (que se define con la etiqueta `<input type="submit">` o `<button type="submit">`), los datos del formulario se envían al servidor web según la configuración especificada en la etiqueta `<form>`. Luego, el servidor procesa los datos y puede responder al usuario o redirigirlo a otra página.
+
+En resumen, la etiqueta `<form>` en HTML es fundamental para crear formularios interactivos en páginas web y permite a los usuarios enviar información al servidor para su procesamiento y respuesta.

@@ -1,0 +1,15 @@
+En el código proporcionado, hay una nueva propiedad agregada al selector `body`. A continuación, explicaré el nuevo contenido:
+
+1. `body`: Este selector aplica estilos al elemento `<body>` del documento HTML, que es el contenedor principal de todo el contenido del sitio web.
+
+    - `background: rgb(220, 220, 220);`: Establece un color de fondo en gris claro (#DCDCDC) para el cuerpo del documento.
+
+    - `background: url("imagenes/fondo.jpg");`: Aquí, se establece una segunda propiedad de fondo para el cuerpo utilizando una imagen como fondo en lugar del color anterior. La imagen de fondo se carga desde el archivo "fondo.jpg" ubicado en una carpeta llamada "imagenes" dentro del directorio donde se encuentra el archivo CSS.
+
+Es importante destacar que cuando se aplican varias propiedades de fondo a un elemento, la última propiedad especificada en el código es la que prevalece. Por lo tanto, en este caso, la imagen de fondo "fondo.jpg" reemplazará el color de fondo gris claro previamente definido.
+
+El resto del código se mantiene igual con estilos para los elementos `<header>`, `<main>`, `<footer>`, `<nav>`, `<ul>`, `<li>`, `<a>`, etc., donde se define un diseño de dos columnas con un menú de navegación en la izquierda y contenido en el lado derecho, utilizando float y width para lograr esto.
+
+Además, se definen estilos para los elementos `#logo` y `#corporativo` con colores de fondo, bordes redondeados y otros ajustes de diseño.
+
+En resumen, el nuevo contenido en el código es la propiedad `background: url("imagenes/fondo.jpg");` aplicada al selector `body`, que establece una imagen de fondo para el cuerpo del documento HTML. El resto del código es similar al código proporcionado anteriormente, que se enfoca en la estructura y diseño del sitio web utilizando CSS.

@@ -1,0 +1,25 @@
+En el código, lo nuevo que aparece es la definición de estilos para los enlaces dentro de la lista de navegación (`nav ul li a`). Se han agregado las siguientes reglas de estilo:
+
+1. Transición de estilos al pasar el cursor sobre los enlaces:
+```css
+nav ul li a {
+    padding: 5px;
+    padding-left: 10px;
+    transition: all 1s;
+}
+```
+
+Esta regla especifica que al pasar el cursor sobre los enlaces dentro de la lista de navegación (`nav ul li a`), se aplicará una transición animada a todos los cambios de estilo con una duración de 1 segundo (`transition: all 1s`). La transición suavizará los cambios, lo que dará una sensación de fluidez cuando el usuario mueva el cursor sobre los enlaces.
+
+2. Estilos al pasar el cursor sobre los enlaces:
+```css
+nav ul li a:hover {
+    background: rgb(50, 50, 50);
+    color: rgb(220, 220, 220);
+    border-radius: 15px;
+}
+```
+
+Cuando el cursor se coloque sobre los enlaces (`nav ul li a:hover`), se aplicarán nuevos estilos. El fondo se cambiará a un tono de gris oscuro (`rgb(50, 50, 50)`) y el color del texto se cambiará a un tono claro (`rgb(220, 220, 220)`), lo que proporcionará un contraste más notorio. Además, se agregará un borde redondeado a los enlaces mediante `border-radius: 15px`, lo que creará un efecto visual agradable cuando el usuario interactúe con los enlaces.
+
+En resumen, estas reglas de estilo mejoran la experiencia de usuario al proporcionar transiciones suaves y cambios visuales al interactuar con los enlaces de navegación, lo que puede hacer que la web se sienta más dinámica y atractiva.

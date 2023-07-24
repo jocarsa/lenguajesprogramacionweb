@@ -1,0 +1,48 @@
+En CSS, puedes utilizar imágenes de fondo para decorar y mejorar la apariencia de elementos HTML, como divs, secciones, encabezados u otros contenedores. La propiedad `background-image` es la que se utiliza para establecer una imagen de fondo en un elemento. Con esta propiedad, puedes especificar la URL de la imagen que deseas utilizar como fondo.
+
+La sintaxis básica para establecer una imagen de fondo en CSS es la siguiente:
+
+```css
+selector {
+  background-image: url('ruta/de/la/imagen.jpg');
+}
+```
+
+Donde `selector` es el nombre del elemento HTML al que deseas aplicar la imagen de fondo, y `'ruta/de/la/imagen.jpg'` es la ruta o URL de la imagen que quieres utilizar.
+
+Es importante mencionar que la imagen de fondo se posiciona por defecto en la esquina superior izquierda del elemento. Puedes controlar la posición de la imagen utilizando la propiedad `background-position`, que acepta valores como `center`, `top`, `bottom`, `left`, `right`, así como combinaciones de estos valores, para definir la posición relativa de la imagen de fondo.
+
+```css
+selector {
+  background-image: url('ruta/de/la/imagen.jpg');
+  background-position: center;
+}
+```
+
+Además de la posición, puedes ajustar la repetición de la imagen de fondo utilizando la propiedad `background-repeat`. Los valores comunes para esta propiedad son `repeat` (repetir la imagen tanto en dirección horizontal como vertical), `repeat-x` (repetir solo horizontalmente) y `repeat-y` (repetir solo verticalmente). También puedes utilizar el valor `no-repeat` para que la imagen de fondo no se repita en absoluto.
+
+```css
+selector {
+  background-image: url('ruta/de/la/imagen.jpg');
+  background-repeat: no-repeat;
+}
+```
+
+Otra propiedad relevante es `background-size`, que te permite ajustar el tamaño de la imagen de fondo. Puedes establecer el tamaño en valores como `cover` (la imagen se ajustará para cubrir completamente el área), `contain` (la imagen se ajustará para caber completamente dentro del área sin recortarse) o valores específicos en píxeles (px), porcentajes (%) o unidades em.
+
+```css
+selector {
+  background-image: url('ruta/de/la/imagen.jpg');
+  background-size: cover;
+}
+```
+
+También es posible combinar varias propiedades de fondo en una sola declaración para obtener el efecto deseado:
+
+```css
+selector {
+  background: url('ruta/de/la/imagen.jpg') center/cover no-repeat;
+}
+```
+
+En resumen, las imágenes de fondo en CSS son una forma efectiva de agregar detalles visuales y mejorar la apariencia de los elementos HTML en una página web. Al utilizar las diferentes propiedades disponibles, puedes controlar la posición, repetición y tamaño de la imagen de fondo para crear diseños atractivos y personalizados.

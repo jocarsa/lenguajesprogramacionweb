@@ -1,0 +1,15 @@
+La etiqueta `iframe` (Inline Frame) es una etiqueta de HTML que permite incrustar contenido de una página web dentro de otra. Aunque puede ser útil para ciertos casos, hay varios motivos por los cuales no se recomienda su uso en muchas situaciones:
+
+1. **Seguridad:** Uno de los principales problemas con `iframe` es la seguridad. Al permitir cargar contenido de otros sitios web, se crea una posible vulnerabilidad conocida como "ataque de clickjacking" (robo de clics). Los atacantes pueden superponer elementos invisibles en el `iframe` para engañar a los usuarios y hacer que interactúen con contenido malicioso sin saberlo.
+
+2. **Problemas de accesibilidad:** Los lectores de pantalla pueden tener dificultades para interpretar correctamente el contenido dentro del `iframe`, lo que puede hacer que parte del contenido no sea accesible para personas con discapacidades visuales.
+
+3. **Problemas de rendimiento:** Los `iframes` pueden afectar negativamente al rendimiento de una página web, especialmente si se cargan múltiples `iframes` con contenido pesado. Cada `iframe` crea una solicitud de servidor adicional, lo que aumenta el tiempo de carga y puede ralentizar la experiencia del usuario.
+
+4. **Incompatibilidad en dispositivos móviles:** Algunos dispositivos móviles pueden tener problemas para mostrar correctamente contenido dentro de `iframes`, lo que puede afectar la experiencia del usuario en smartphones y tabletas.
+
+5. **Problemas de diseño:** Al incrustar contenido externo mediante `iframes`, puede resultar difícil mantener la consistencia en el diseño y el aspecto visual de la página, ya que el contenido cargado puede tener su propio estilo y estructura.
+
+6. **Problemas de indexación en motores de búsqueda:** Los motores de búsqueda pueden tener dificultades para rastrear y indexar el contenido dentro de `iframes`. Esto puede afectar el SEO (Optimización para Motores de Búsqueda) de la página y hacer que el contenido dentro del `iframe` no sea fácilmente descubierto por los usuarios a través de búsquedas.
+
+En lugar de utilizar `iframes`, se recomienda utilizar otras técnicas más modernas y seguras para lograr el mismo propósito, como la carga de contenido a través de Ajax o utilizando la etiqueta `object` o `embed` para incrustar contenido multimedia. Además, si es posible, es preferible integrar el contenido directamente en la página sin la necesidad de `iframes`.

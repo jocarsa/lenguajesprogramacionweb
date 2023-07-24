@@ -1,0 +1,21 @@
+Este código es un conjunto de estilos CSS que se aplican a los elementos de entrada dentro de un formulario. Vamos a explicar cada una de las reglas de estilo:
+
+1. `form input`: Esto selecciona todos los elementos de entrada (`input`) que están dentro de un formulario (`form`).
+
+2. `width: 95%;`: Establece el ancho de los elementos de entrada al 95% del ancho del contenedor que los contiene (el formulario). Esto asegura que los elementos de entrada ocupen casi todo el ancho del formulario.
+
+3. `padding: 10px;`: Agrega un espacio de 10 píxeles entre el contenido de los elementos de entrada y sus bordes. Esto proporciona un poco de espacio alrededor del texto o cualquier contenido dentro del campo de entrada.
+
+4. `box-sizing: border-box;`: Esta regla asegura que el tamaño total del elemento de entrada, incluyendo el contenido, los rellenos y los bordes, se mantenga dentro del ancho especificado. En otras palabras, el tamaño del elemento no se verá afectado por el tamaño del relleno y el borde.
+
+5. `margin: 10px;`: Agrega un margen de 10 píxeles alrededor de cada elemento de entrada. Esto crea un espacio entre los elementos de entrada y otros elementos cercanos.
+
+6. `border-radius: 5px;`: Establece un radio de borde de 5 píxeles, lo que redondea las esquinas del borde de los elementos de entrada. Esto crea un aspecto más suave y estilizado.
+
+7. `border: 1px solid grey;`: Agrega un borde sólido de 1 píxel con color gris alrededor de los elementos de entrada. El borde proporciona un contorno visual alrededor de los campos de entrada.
+
+8. `box-shadow: 0px 5px 5px rgba(0,0,0,0.1) inset;`: Esta regla agrega una sombra alrededor del borde interior (dentro del elemento) de los elementos de entrada. La sombra se compone de 5 píxeles de desplazamiento vertical y horizontal, con un desenfoque de 5 píxeles, y se establece en un color gris oscuro con una opacidad de 0.1. Esto crea un efecto de profundidad o relieve en el campo de entrada.
+
+9. `form input[type=submit]`: Esta regla selecciona específicamente el elemento de entrada de tipo "submit" dentro del formulario.
+
+10. `box-shadow: 0px 5px 5px rgba(0,0,0,0.1);`: En este caso, se aplica una sombra similar a la anterior, pero solo a los botones de envío del formulario. Esto crea un efecto de relieve suave en el botón de envío cuando se coloca el cursor sobre él. La sombra está ubicada en el borde inferior del botón y tiene una apariencia de relieve. La sombra tiene un desplazamiento vertical de 5 píxeles y un desenfoque de 5 píxeles, con un color gris oscuro y una opacidad de 0.1.

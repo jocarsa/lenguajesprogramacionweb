@@ -1,0 +1,16 @@
+En el código, se han agregado estilos para aplicar efectos de filtro a las imágenes del logotipo y a las imágenes dentro de los elementos `<article>` en la sección de noticias del `<main>`. A continuación, explicaré lo nuevo que aparece:
+
+```css
+#logo img {
+    filter: hue-rotate(300deg);
+}
+article img {
+    filter: grayscale(0.5);
+}
+```
+
+1. `#logo img { filter: hue-rotate(300deg); }`: Esta regla de estilo se aplica a la imagen dentro del elemento con el id `logo`. El efecto `hue-rotate` permite rotar el espectro de colores de la imagen. En este caso, se está aplicando una rotación de 300 grados, lo que modificará los tonos de colores presentes en la imagen.
+
+2. `article img { filter: grayscale(0.5); }`: Esta regla de estilo se aplica a todas las imágenes que se encuentran dentro de los elementos `<article>`. El efecto `grayscale` convierte la imagen a escala de grises. El valor `0.5` indica que la imagen tendrá una intensidad de gris del 50%, lo que hace que aparezca en una especie de tono medio entre color y blanco y negro.
+
+Con estas reglas de estilo, se aplicarán los efectos de rotación de colores y escala de grises a las imágenes correspondientes en el contenido de la página web.

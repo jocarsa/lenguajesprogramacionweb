@@ -1,0 +1,25 @@
+En este código, se han aplicado estilos CSS específicos a los elementos de formulario (`<form>`), incluyendo campos de entrada (`<input>`), selecciones (`<select>`) y áreas de texto (`<textarea>`). Explicaremos las nuevas propiedades y estilos aplicados:
+
+1. `form input, form select, form textarea`: Esta es una regla de CSS que selecciona todos los elementos `<input>`, `<select>` y `<textarea>` que están dentro de un formulario (`<form>`). Esto permite aplicar estilos comunes a estos elementos de formulario.
+
+2. `width: 95%;`: Establece el ancho de los elementos de formulario al 95% del ancho de su contenedor. Esto ayuda a que los campos de entrada y selección se ajusten mejor al diseño general.
+
+3. `padding: 10px;`: Agrega 10 píxeles de relleno en todos los lados de los elementos de formulario. Esto crea un espacio alrededor del contenido dentro de los elementos.
+
+4. `box-sizing: border-box;`: Cambia el modelo de caja de los elementos de formulario para que el relleno y el borde se incluyan en el ancho total del elemento. Esto evita que el relleno y el borde aumenten el tamaño total del elemento.
+
+5. `margin: 10px;`: Establece un margen de 10 píxeles alrededor de los elementos de formulario, lo que los separa unos de otros y de otros elementos en la página.
+
+6. `border-radius: 5px;`: Agrega esquinas redondeadas a los elementos de formulario, lo que les da una apariencia más estilizada.
+
+7. `border: 1px solid grey;`: Agrega un borde de 1 píxel sólido de color gris a los elementos de formulario.
+
+8. `box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1) inset;`: Agrega una sombra interna a los elementos de formulario, lo que crea un efecto de profundidad sutil.
+
+9. `transition: all 1s;`: Agrega una transición suave de 1 segundo a todas las propiedades CSS que cambien, lo que crea animaciones fluidas cuando se aplican cambios de estilo, como en el foco de un campo de entrada.
+
+10. `form textarea { height: 300px; }`: Establece la altura de los campos de texto (`<textarea>`) a 300 píxeles. Esto permite que el área de texto tenga una altura predefinida, proporcionando más espacio para que los usuarios escriban mensajes largos o comentarios.
+
+11. `form input[type=submit], form select`: Esta regla de CSS selecciona los botones de envío (`<input type="submit>`) y los elementos de selección (`<select>`) dentro del formulario. Aquí se aplica un estilo de sombra a estos elementos para darles una apariencia similar.
+
+12. `form input:focus`: Esta regla de CSS selecciona los campos de entrada (`<input>`) dentro del formulario cuando están en estado de foco. Cuando un campo de entrada tiene foco, se muestra un borde verde de 1 píxel y un fondo ligeramente verde y transparente. Esto proporciona un efecto visual cuando un usuario hace clic en un campo de entrada.

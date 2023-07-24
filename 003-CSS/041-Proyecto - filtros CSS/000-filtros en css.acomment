@@ -1,0 +1,43 @@
+Los filtros CSS en CSS permiten aplicar efectos visuales a elementos HTML, como imágenes y elementos de fondo, para modificar su apariencia. Estos filtros se utilizan para ajustar, alterar o realzar el contenido visual de un elemento sin modificar directamente los archivos de imagen o contenido original. Los filtros CSS proporcionan una forma poderosa y flexible de agregar efectos visuales sin necesidad de editar las imágenes o elementos en sí.
+
+Para aplicar un filtro a un elemento, se utiliza la propiedad `filter` en la hoja de estilos CSS. La sintaxis general es la siguiente:
+
+```css
+selector {
+  filter: filtro1 valor1 filtro2 valor2 ...;
+}
+```
+
+Donde `selector` es el elemento HTML al que se aplicará el filtro y `filtro1`, `valor1`, `filtro2`, `valor2`, etc., son pares de filtro y valor que determinan el efecto deseado. Los filtros pueden ser combinados y aplicados en diferentes órdenes para lograr efectos personalizados.
+
+Algunos de los filtros CSS más comunes son:
+
+1. **blur()**: Aplica un efecto de desenfoque al elemento, lo que da la apariencia de una imagen fuera de foco. El valor determina la cantidad de desenfoque aplicado.
+
+2. **brightness()**: Ajusta el brillo del elemento. Un valor de 0% lo hace completamente negro, 100% es sin cambios y valores superiores al 100% aumentan el brillo.
+
+3. **contrast()**: Ajusta el contraste del elemento. Un valor de 0% lo hace completamente gris, 100% es sin cambios y valores superiores al 100% aumentan el contraste.
+
+4. **grayscale()**: Convierte el elemento en una escala de grises. Un valor de 0% es sin cambios y 100% lo convierte en blanco y negro.
+
+5. **hue-rotate()**: Gira los colores del elemento. El valor se define en grados, y 0° es sin cambios, 180° invierte los colores y 360° es sin cambios nuevamente.
+
+6. **invert()**: Invierte los colores del elemento. Un valor de 0% es sin cambios y 100% invierte completamente los colores.
+
+7. **opacity()**: Ajusta la opacidad del elemento. Un valor de 0 lo hace completamente transparente, 1 es sin cambios y valores entre 0 y 1 ajustan la transparencia.
+
+8. **saturate()**: Ajusta la saturación del elemento. Un valor de 0% lo hace completamente desaturado (escala de grises), 100% es sin cambios y valores superiores al 100% aumentan la saturación.
+
+9. **sepia()**: Aplica un efecto sepia al elemento. Un valor de 0% es sin cambios y 100% aplica el efecto sepia completo.
+
+Ejemplo:
+
+```css
+img {
+  filter: blur(2px) brightness(120%) grayscale(50%);
+}
+```
+
+En este ejemplo, se aplica un filtro que combina desenfoque, brillo y escala de grises a todas las imágenes del sitio.
+
+Es importante tener en cuenta que el soporte de filtros CSS puede variar según el navegador y la versión. Al utilizar filtros CSS, se debe probar y asegurar la compatibilidad en diferentes navegadores para garantizar una experiencia visual consistente en los sitios web. Además, es fundamental utilizar los filtros con moderación, ya que un uso excesivo puede afectar negativamente la legibilidad y la accesibilidad del contenido.

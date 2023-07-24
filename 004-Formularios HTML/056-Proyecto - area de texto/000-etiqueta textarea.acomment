@@ -1,0 +1,25 @@
+La etiqueta `<textarea>` en HTML se utiliza para crear un área de texto de múltiples líneas en un formulario web, donde los usuarios pueden escribir y editar texto libremente. A diferencia de la etiqueta `<input>` que se utiliza para campos de entrada de texto más cortos, la etiqueta `<textarea>` permite que los usuarios ingresen texto más largo, como comentarios, descripciones o cualquier otro contenido que requiera más espacio.
+
+La estructura básica de la etiqueta `<textarea>` es la siguiente:
+
+```html
+<textarea rows="4" cols="50">
+  Aquí se puede escribir texto...
+</textarea>
+```
+
+Los atributos `rows` y `cols` se utilizan para definir el número de filas y columnas que ocupará el área de texto. Por ejemplo, en el código anterior, se muestra un área de texto con 4 filas y 50 columnas. Estos valores son solo sugerencias, y los usuarios pueden escribir más texto del que se muestra inicialmente, y el área de texto se ajustará automáticamente a medida que escriban más contenido.
+
+Para establecer un texto predefinido o valor inicial en el área de texto, simplemente coloca el texto entre las etiquetas de apertura y cierre de `<textarea>`.
+
+```html
+<textarea rows="4" cols="50">
+  Este es el texto inicial...
+</textarea>
+```
+
+Cuando el formulario que contiene la etiqueta `<textarea>` se envía al servidor, el contenido escrito por el usuario se enviará como parte del formulario, y se puede procesar y almacenar en el servidor según sea necesario.
+
+La etiqueta `<textarea>` también puede ser útil cuando se necesita permitir que los usuarios ingresen texto con formato, como saltos de línea y párrafos, ya que el área de texto admite estos formatos de forma predeterminada.
+
+En resumen, la etiqueta `<textarea>` en HTML es una forma de crear áreas de texto de múltiples líneas en formularios web, que permiten a los usuarios escribir y editar texto más largo y proporcionan una experiencia más cómoda para ingresar contenido que requiere espacio adicional.

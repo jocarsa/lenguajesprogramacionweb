@@ -1,0 +1,11 @@
+En este código, se han agregado algunas nuevas propiedades CSS y se han modificado otras para los elementos `<input>` y `<select>` dentro de un formulario (`form`). Vamos a explicar cada parte nueva:
+
+1. `transition: all 1s;`: Esta propiedad se agrega a la primera regla que afecta a `form input` y `form select`. Establece una transición suave para todas las propiedades CSS con una duración de 1 segundo. Esto significa que cuando se produzcan cambios en las propiedades de estos elementos, como un cambio de color o tamaño, la transición se animará durante 1 segundo, en lugar de cambiar instantáneamente.
+
+2. `form input:focus`: Esta regla se aplica a los elementos `<input>` dentro del formulario (`form`) que estén enfocados, es decir, cuando el usuario haga clic en el campo de entrada. Aquí se definen estilos específicos para cuando el campo está enfocado:
+
+   - `outline: 1px solid green;`: Establece un contorno de borde de 1 píxel de color verde alrededor del campo de entrada enfocado. El contorno es una línea que resalta el campo cuando está activo.
+   
+   - `background: rgba(0, 255, 0, 0.1);`: Establece un color de fondo semitransparente verde claro para el campo de entrada cuando está enfocado. Esto ayuda a resaltar visualmente el campo activo.
+
+Con estas adiciones, los campos de entrada (`<input>`) y los campos de selección (`<select>`) dentro del formulario tendrán un estilo uniforme con bordes redondeados, una sombra interna suave y una transición suave cuando haya cambios en las propiedades. Además, cuando un campo de entrada está enfocado, se resaltará con un contorno verde y un fondo semitransparente verde claro para mejorar la experiencia visual del usuario al interactuar con el formulario.

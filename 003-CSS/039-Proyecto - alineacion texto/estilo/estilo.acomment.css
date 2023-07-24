@@ -1,0 +1,9 @@
+En el código proporcionado, se han agregado dos nuevas propiedades que afectan al selector `p`. A continuación, explicaré lo nuevo que aparece:
+
+1. `p { text-align: justify; }`: Esta propiedad se aplica a todos los elementos `<p>` (párrafos) en el documento. Establece el alineamiento del texto dentro de los párrafos como "justificado". Esto significa que el texto se ajustará tanto a la izquierda como a la derecha, creando márgenes rectos en ambos lados del párrafo. El texto se expandirá o contraerá automáticamente para llenar el ancho del contenedor.
+
+2. `footer p { text-align: center; }`: Esta propiedad se aplica a todos los elementos `<p>` dentro del elemento `<footer>`. Establece el alineamiento del texto dentro de los párrafos en el pie de página como "centrado". Esto asegura que cualquier texto dentro del pie de página se muestre centrado horizontalmente.
+
+Con estas nuevas propiedades, se logra que el texto dentro de los párrafos en el cuerpo del documento se muestre justificado, con márgenes rectos en ambos lados. Además, el texto dentro de los párrafos en el pie de página se muestra centrado horizontalmente.
+
+El resto del código sigue siendo el mismo, con estilos para los elementos `<body>`, `<header>`, `<footer>`, `<nav>`, `<ul>`, `<li>`, `<a>`, etc., que definen el diseño del sitio web utilizando CSS. También se aplican estilos para los encabezados (`<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`, `<h6>`) y los elementos `#logo`, `#corporativo`, y `<main>` para mejorar el aspecto visual del diseño.
