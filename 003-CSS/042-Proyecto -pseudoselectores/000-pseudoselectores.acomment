@@ -1,0 +1,39 @@
+Los pseudoselectores en CSS son una forma de seleccionar y aplicar estilos a elementos HTML específicos que se encuentran en un estado o posición particular. Los pseudoselectores se utilizan para agregar estilos a elementos que no pueden ser seleccionados directamente utilizando solo el selector de elementos estándar. Estos se identifican agregando dos puntos (:) después del selector.
+
+Los pseudoselectores se aplican a elementos HTML en función de su estado, posición o contenido, lo que permite aplicar estilos de manera selectiva según diferentes situaciones. Algunos de los pseudoselectores más comunes son:
+
+1. **:hover**: Este pseudoselector se aplica cuando el cursor del mouse se encuentra sobre el elemento. Es ampliamente utilizado para crear efectos de cambio de estilo en enlaces y elementos interactivos cuando se pasa el cursor por encima.
+
+2. **:active**: Se aplica al elemento en el momento en que está siendo activado, por ejemplo, cuando se hace clic en un enlace o se presiona un botón.
+
+3. **:focus**: Se aplica al elemento que tiene el foco de atención, generalmente cuando se utiliza la navegación con teclado para moverse entre elementos interactivos.
+
+4. **:first-child**: Selecciona el primer elemento hijo de su elemento padre. Permite aplicar estilos a ese primer hijo de manera específica.
+
+5. **:last-child**: Selecciona el último elemento hijo de su elemento padre.
+
+6. **:nth-child()**: Permite seleccionar un elemento específico basado en su posición entre los hijos del elemento padre. Por ejemplo, `:nth-child(3)` seleccionará el tercer hijo del padre.
+
+7. **:not()**: Se utiliza para seleccionar elementos que no cumplen con un cierto criterio. Por ejemplo, `:not(p)` seleccionará todos los elementos que no sean párrafos.
+
+8. **:before** y **:after**: Estos pseudoselectores permiten insertar contenido adicional antes o después del contenido real de un elemento, lo que es especialmente útil para agregar contenido decorativo o íconos.
+
+Ejemplo de uso:
+
+```css
+a:hover {
+  color: red;
+}
+
+li:nth-child(odd) {
+  background-color: lightgray;
+}
+
+input:not([type="text"]) {
+  display: none;
+}
+```
+
+En este ejemplo, cuando el cursor está sobre un enlace (`:hover`), el color del texto cambia a rojo. Los elementos `<li>` que son hijos impares de su elemento padre recibirán un fondo gris claro, y todos los elementos de entrada (input) excepto aquellos que tengan el atributo `type="text"` tendrán la propiedad `display` establecida en "none" para ocultarlos.
+
+Los pseudoselectores son una herramienta poderosa en CSS que permite una mayor personalización y control sobre la presentación de elementos HTML sin la necesidad de agregar clases adicionales o modificar el código HTML.

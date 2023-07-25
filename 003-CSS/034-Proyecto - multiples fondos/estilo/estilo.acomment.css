@@ -1,0 +1,15 @@
+En el código proporcionado, hay una nueva propiedad agregada al selector `body`. A continuación, explicaré el nuevo contenido:
+
+1. `body`: Este selector aplica estilos al elemento `<body>` del documento HTML, que es el contenedor principal de todo el contenido del sitio web.
+
+    - `background: rgb(220, 220, 220);`: Establece un color de fondo en gris claro (#DCDCDC) para el cuerpo del documento.
+
+    - `background: url("imagenes/fondotransparente.png"), url("imagenes/fondo.jpg");`: Aquí, se establecen dos imágenes de fondo para el cuerpo. La primera imagen "fondotransparente.png" se colocará en la parte superior, y la segunda imagen "fondo.jpg" se colocará debajo de la primera. 
+
+      Esta técnica se llama "multiple backgrounds" o múltiples fondos, donde se pueden definir varias imágenes o colores de fondo para un mismo elemento, y se superponen una encima de la otra siguiendo el orden especificado. En este caso, se superpone una imagen con fondo transparente sobre otra imagen de fondo.
+
+El resto del código se mantiene igual con estilos para los elementos `<header>`, `<main>`, `<footer>`, `<nav>`, `<ul>`, `<li>`, `<a>`, etc., donde se define un diseño de dos columnas con un menú de navegación en la izquierda y contenido en el lado derecho, utilizando float y width para lograr esto.
+
+Además, se definen estilos para los elementos `#logo` y `#corporativo` con colores de fondo, bordes redondeados y otros ajustes de diseño.
+
+En resumen, el nuevo contenido en el código es la propiedad `background` aplicada al selector `body`, donde se definen dos imágenes de fondo que se superponen una encima de la otra, creando un efecto de capas en el fondo del cuerpo del documento HTML. El resto del código sigue siendo el mismo, centrándose en la estructura y el diseño del sitio web mediante CSS.

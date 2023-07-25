@@ -1,0 +1,18 @@
+La etiqueta `<iframe>` en HTML se utiliza para incrustar una página web o contenido externo dentro de otra página web. La sigla "iframe" significa "inline frame" (marco en línea), lo que sugiere que crea un marco o ventana en línea en la página actual donde se carga el contenido externo. Esto permite mostrar contenido de otra fuente o sitio web dentro de la página actual sin tener que redirigir al usuario a otra página.
+
+La estructura básica de la etiqueta `<iframe>` es la siguiente:
+
+```html
+<iframe src="ruta_del_contenido_externo"></iframe>
+```
+
+Explicación de los atributos:
+
+- `src`: El atributo "src" especifica la URL o ruta del contenido externo que se desea incrustar. Puede ser la dirección de un sitio web, un documento HTML, un video, un mapa embebido, o cualquier otro tipo de contenido que sea compatible con la etiqueta `<iframe>`.
+- `width` y `height`: Estos atributos especifican el ancho y la altura del iframe en píxeles. Es importante definir estas dimensiones para asegurarse de que el contenido embebido se muestre adecuadamente en la página.
+- `frameborder`: El atributo "frameborder" indica si el iframe debe mostrar un borde alrededor del contenido. Un valor de "0" (cero) significa que no debe mostrarse ningún borde, mientras que un valor de "1" muestra un borde.
+- `allowfullscreen`: El atributo "allowfullscreen" es específico para iframes que contienen contenido multimedia, como videos. Si se establece en "allowfullscreen", permite al usuario ver el contenido en modo de pantalla completa cuando está disponible.
+
+Es importante tener en cuenta que el contenido cargado dentro del iframe proviene de un dominio o sitio web diferente, lo que significa que puede haber limitaciones de seguridad y restricciones de acceso debido a la política de mismo origen (same-origin policy) del navegador. Esto es para evitar que sitios maliciosos accedan y manipulen el contenido de otros sitios web.
+
+En resumen, la etiqueta `<iframe>` de HTML es una poderosa herramienta para integrar contenido externo de otras fuentes dentro de una página web. Se utiliza comúnmente para mostrar mapas interactivos, videos embebidos, contenido de redes sociales, widgets y otras aplicaciones web de terceros en un sitio sin tener que redirigir a los usuarios a otro lugar. Sin embargo, siempre se debe tener en cuenta la seguridad y considerar los posibles problemas relacionados con la política de mismo origen cuando se utiliza la etiqueta `<iframe>`.

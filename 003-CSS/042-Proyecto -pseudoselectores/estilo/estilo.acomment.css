@@ -1,0 +1,26 @@
+En el código se han agregado nuevos estilos para mejorar la apariencia y la interacción del menú de navegación (`nav`) y los enlaces (`<a>`) dentro de él. A continuación, explicaré lo nuevo que aparece:
+
+```css
+nav ul li a{
+    padding:5px;
+    padding-left:10px;
+}
+```
+Esta regla de estilo aplica un espaciado interno (padding) de 5 píxeles en la parte superior e inferior del enlace (`<a>`) dentro de los elementos de la lista (`li`) del menú de navegación. Además, agrega un espaciado interno de 10 píxeles en el lado izquierdo del enlace para crear un espacio visual entre el borde del contenedor y el texto del enlace.
+
+```css
+nav ul li {
+    margin-bottom: 5px;
+    border-bottom: 1px solid grey;
+}
+```
+Esta regla de estilo agrega un margen inferior de 5 píxeles a cada elemento de la lista (`li`) del menú de navegación para separar visualmente los enlaces entre sí. Además, se agrega un borde inferior de 1 píxel de color gris (`grey`) a cada elemento de la lista, lo que crea una línea divisoria entre los elementos del menú.
+
+```css
+nav ul li a:hover {
+    background: rgb(50,50,50);
+    color: rgb(220,220,220);
+    border-radius: 15px;
+}
+```
+Esta regla de estilo se aplica cuando el cursor del mouse se encuentra sobre un enlace (`<a>`) del menú de navegación. Al hacer esto, se cambia el fondo del enlace a un tono de gris más oscuro (`rgb(50,50,50)`) y el color del texto a un tono de gris más claro (`rgb(220,220,220)`). Además, se agrega un radio de borde de 15 píxeles para redondear las esquinas del enlace y darle un aspecto más suavizado y destacado durante el estado de interacción del cursor.

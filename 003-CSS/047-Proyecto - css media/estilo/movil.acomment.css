@@ -1,0 +1,23 @@
+Este código es una regla de medios (media query) escrita en CSS y se utiliza para aplicar estilos específicos cuando la pantalla tiene un ancho máximo de 800 píxeles, lo que generalmente corresponde a dispositivos móviles y pantallas más pequeñas.
+
+Explicación línea por línea:
+
+1. `@media only screen and (max-width: 800px)`: Esta línea indica que los estilos siguientes solo se aplicarán a dispositivos que tengan un ancho máximo de 800 píxeles. En otras palabras, se aplicarán solo cuando la pantalla sea más pequeña o igual a 800 píxeles de ancho.
+
+2. `html,body`: Estas dos reglas aplican estilos directamente al elemento `<html>` y al elemento `<body>` del documento HTML.
+
+3. `{ padding:0px; margin:0px; }`: Estas dos propiedades establecen el margen y el relleno de los elementos `<html>` y `<body>` en 0 píxeles, eliminando cualquier espacio adicional que pueda tener por defecto.
+
+4. `header,main,footer`: Estas son reglas que aplican estilos a los elementos `<header>`, `<main>` y `<footer>` del documento HTML.
+
+5. `{ width:100%; box-sizing: border-box; }`: La propiedad `width:100%` hace que estos elementos (header, main, footer) ocupen todo el ancho de la pantalla. La propiedad `box-sizing: border-box;` asegura que el ancho del elemento incluya tanto el contenido como el relleno y el borde, en lugar de agregar el relleno y el borde al ancho especificado.
+
+6. `nav,#contenido`: Estas reglas aplican estilos al elemento `<nav>` y al elemento con el `id` "contenido".
+
+7. `{ width:100%; }`: La propiedad `width:100%` hace que estos elementos ocupen todo el ancho disponible en la pantalla.
+
+8. `article img`: Esta regla aplica estilos a las imágenes que se encuentren dentro de elementos `<article>`.
+
+9. `{ width:50%; float:none; margin:0 auto; display:flex; justify-content: center; }`: Estas propiedades establecen el ancho de la imagen en 50% del ancho del contenedor, eliminando cualquier flotación que pueda tener (`float:none`), centrando horizontalmente la imagen con `margin:0 auto`, y convirtiendo el elemento en un contenedor flexible (`display:flex`) con el contenido centrado horizontalmente (`justify-content:center`) en el contenedor. Esto asegura que la imagen se muestre a la mitad del ancho del contenedor y esté centrada en la pantalla cuando se visualice en dispositivos con un ancho máximo de 800 píxeles.
+
+En resumen, estas reglas de medios son utilizadas para aplicar estilos específicos cuando la pantalla es más pequeña o igual a 800 píxeles de ancho, lo que permite un diseño más adaptativo y optimizado para dispositivos móviles y pantallas pequeñas.

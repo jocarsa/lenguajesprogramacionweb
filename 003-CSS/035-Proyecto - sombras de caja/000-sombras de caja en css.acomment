@@ -1,0 +1,33 @@
+Las sombras de caja en CSS son un efecto visual que se agrega a los elementos HTML para simular la presencia de una sombra proyectada detrás de ellos. Estas sombras son una técnica popular utilizada en el diseño web para dar profundidad y realismo a los elementos, lo que ayuda a destacarlos y mejorar la experiencia visual del usuario.
+
+Para agregar sombras de caja a un elemento en CSS, se utilizan las propiedades `box-shadow` y `text-shadow` (para texto). En esta explicación, nos enfocaremos en la propiedad `box-shadow`.
+
+La sintaxis básica de `box-shadow` es la siguiente:
+
+```css
+selector {
+  box-shadow: [horizontal offset] [vertical offset] [blur radius] [spread radius] [color];
+}
+```
+
+- `horizontal offset`: Especifica el desplazamiento horizontal de la sombra. Un valor positivo desplaza la sombra hacia la derecha, y un valor negativo hacia la izquierda. Por ejemplo, `5px` para desplazamiento hacia la derecha y `-5px` para desplazamiento hacia la izquierda.
+
+- `vertical offset`: Especifica el desplazamiento vertical de la sombra. Un valor positivo desplaza la sombra hacia abajo, y un valor negativo hacia arriba. Por ejemplo, `5px` para desplazamiento hacia abajo y `-5px` para desplazamiento hacia arriba.
+
+- `blur radius`: Determina la cantidad de difuminado que tiene la sombra. Un valor mayor crea una sombra más difuminada y suave, mientras que un valor menor produce una sombra más nítida. Puedes utilizar `0` si no deseas difuminado.
+
+- `spread radius` (opcional): Especifica la extensión de la sombra. Un valor positivo aumentará el tamaño de la sombra, mientras que un valor negativo la reducirá. Si no deseas cambiar el tamaño de la sombra, puedes omitir este valor.
+
+- `color`: Especifica el color de la sombra. Puedes utilizar nombres de colores, códigos hexadecimales, valores RGB o valores HSL para definir el color.
+
+Ejemplo de uso:
+
+```css
+div {
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+```
+
+En el ejemplo anterior, hemos aplicado una sombra de caja al elemento `div`. La sombra tiene un desplazamiento horizontal de `2px`, un desplazamiento vertical de `2px`, un radio de difuminado de `4px`, sin extensión (spread radius) y un color de sombra que es un tono de negro semi-transparente (`rgba(0, 0, 0, 0.2)`).
+
+Es importante tener en cuenta que el efecto de sombra de caja puede aplicarse a cualquier tipo de elemento HTML, no solo a contenedores `div`. Puedes utilizarlo en botones, imágenes, texto y otros elementos para mejorar su apariencia y resaltarlos en la página web.

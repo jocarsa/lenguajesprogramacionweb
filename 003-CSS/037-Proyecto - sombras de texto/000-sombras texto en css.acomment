@@ -1,0 +1,30 @@
+La sombra de texto en CSS es una propiedad que te permite agregar sombras detrás del texto en elementos HTML. Esta característica es útil para resaltar el texto y hacer que se destaque más en el diseño de la página web. La sombra de texto puede crear efectos visuales interesantes y mejorar la legibilidad del texto cuando se coloca sobre fondos con alto contraste.
+
+La sintaxis básica para aplicar una sombra de texto en CSS es la siguiente:
+
+```css
+selector {
+  text-shadow: horizontal vertical blur color;
+}
+```
+
+Donde:
+
+- `horizontal`: Especifica la posición horizontal de la sombra con respecto al texto. Puede ser un valor positivo (a la derecha) o negativo (a la izquierda).
+- `vertical`: Especifica la posición vertical de la sombra con respecto al texto. Puede ser un valor positivo (hacia abajo) o negativo (hacia arriba).
+- `blur`: Especifica la difuminación o desenfoque de la sombra. Puede ser un valor positivo para una sombra más suave o cero para una sombra nítida.
+- `color`: Especifica el color de la sombra. Puede ser un nombre de color, un valor hexadecimal o un valor RGB.
+
+Ejemplo de uso:
+
+```css
+h1 {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+```
+
+En el ejemplo anterior, hemos aplicado una sombra de texto al elemento `<h1>`. La sombra tiene un desplazamiento horizontal de `2px`, un desplazamiento vertical de `2px`, un desenfoque de `4px` y un color de sombra que es un tono de negro semi-transparente. Esto creará una sombra suave detrás del texto que se desplaza ligeramente hacia la derecha y hacia abajo.
+
+Puedes aplicar sombras de texto a diferentes elementos y ajustar los valores para lograr el efecto deseado. También puedes usar múltiples valores separados por comas para crear varias sombras de texto en un solo elemento.
+
+Es importante tener en cuenta que el soporte para la sombra de texto puede variar en diferentes navegadores, por lo que es recomendable realizar pruebas y verificaciones cruzadas para asegurarse de que la apariencia del texto sea coherente en diferentes entornos. Además, debes usar la sombra de texto con moderación para evitar que el texto se vuelva ilegible o sobrecargado con efectos visuales excesivos.

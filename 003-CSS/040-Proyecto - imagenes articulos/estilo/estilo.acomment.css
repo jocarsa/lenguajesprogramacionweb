@@ -1,0 +1,19 @@
+En el código, se han agregado estilos para las imágenes que se encuentran dentro de los elementos `<article>` en la sección de noticias del `<main>`. A continuación, explicaré lo nuevo que aparece:
+
+```css
+article img{
+    width:20%;
+    float:left;
+    margin-right:20px;
+}
+```
+
+1. `article img`: Este selector aplica estilos específicos a todas las imágenes que están dentro de los elementos `<article>`. El código `article img` selecciona todas las imágenes que se encuentran como hijos directos de elementos `<article>`.
+
+2. `width: 20%;`: Esta propiedad establece que el ancho de las imágenes será del 20% del ancho del contenedor padre (en este caso, el elemento `<article>`). Es decir, las imágenes ocuparán el 20% del ancho disponible dentro del contenedor.
+
+3. `float: left;`: Esta propiedad hace que las imágenes floten a la izquierda, lo que significa que se alinearán en línea horizontal y permitirán que otros elementos se posicionen al lado derecho.
+
+4. `margin-right: 20px;`: Esta propiedad establece un margen derecho de 20 píxeles para las imágenes. Esto crea un espacio de 20 píxeles entre cada imagen y el contenido que le sigue dentro del elemento `<article>`.
+
+Con estas reglas de estilo, las imágenes en la sección de noticias aparecerán una al lado de la otra en línea horizontal, ocupando el 20% del ancho de su contenedor, y tendrán un margen derecho de 20 píxeles para separarlas del contenido que sigue en el `<article>`.

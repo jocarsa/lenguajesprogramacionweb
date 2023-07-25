@@ -1,0 +1,24 @@
+La etiqueta `<input>` con el atributo `type="submit"` en HTML se utiliza para crear un botón de envío en un formulario web. Cuando un usuario hace clic en este botón, los datos ingresados en el formulario se envían al servidor para su procesamiento. Es uno de los elementos fundamentales para permitir que los usuarios interactúen con formularios en línea y envíen datos a través de internet.
+
+La estructura básica de la etiqueta `<input>` con `type="submit"` es la siguiente:
+
+```html
+<input type="submit" value="Texto del botón">
+```
+
+El atributo `value` se utiliza para especificar el texto que se mostrará en el botón de envío. Por ejemplo, si se establece `value="Enviar"`, el botón mostrará la etiqueta "Enviar" en el formulario.
+
+Cuando el usuario hace clic en el botón de envío, el formulario se enviará al servidor y se procesarán los datos ingresados. El destino del formulario se determina mediante el atributo `action` del elemento `<form>` al que pertenece el botón de envío. El atributo `action` especifica la URL del script en el servidor que manejará los datos del formulario.
+
+Es importante tener en cuenta que, si el atributo `form` está presente en el botón de envío y se establece en el `id` de otro formulario, el botón enviará ese formulario en lugar del formulario al que pertenece directamente.
+
+```html
+<form id="miFormulario" action="/procesar_datos.php" method="post">
+    <!-- ... otros campos de entrada ... -->
+    <input type="submit" value="Enviar" form="miFormulario">
+</form>
+```
+
+En el ejemplo anterior, el botón de envío enviará el formulario con `id="miFormulario"`, aunque esté fuera del formulario.
+
+En resumen, la etiqueta `<input>` con `type="submit"` es esencial para permitir a los usuarios enviar datos desde un formulario web al servidor. Al hacer clic en este botón, se procesan los datos ingresados y se realiza la acción especificada en el atributo `action` del formulario.

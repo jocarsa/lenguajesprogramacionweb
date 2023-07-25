@@ -1,0 +1,52 @@
+En CSS, los bordes redondeados (border-radius) son una propiedad que permite aplicar esquinas redondeadas a elementos HTML, como divs, imágenes, botones y otros elementos. Esta propiedad controla cómo se ven las esquinas de un elemento, dándoles una apariencia más suave y estilizada.
+
+La propiedad `border-radius` acepta uno o varios valores, que representan el radio del arco que define el redondeo de las esquinas. Los valores pueden ser especificados en píxeles (px), porcentajes (%) o unidades em (relativas). Si se proporciona un solo valor, todas las esquinas tendrán el mismo radio. Si se proporcionan cuatro valores, se aplicarán en el orden de la parte superior izquierda, superior derecha, inferior derecha e inferior izquierda, permitiendo redondear las esquinas de manera independiente.
+
+Ejemplo con un solo valor:
+
+```css
+/* Todas las esquinas tendrán un radio de 10px */
+.elemento {
+  border-radius: 10px;
+}
+```
+
+Ejemplo con cuatro valores:
+
+```css
+/* Redondear cada esquina de manera independiente */
+.elemento {
+  border-radius: 10px 5px 20px 0;
+}
+```
+
+En este ejemplo, la esquina superior izquierda tendrá un radio de 10px, la esquina superior derecha un radio de 5px, la esquina inferior derecha un radio de 20px y la esquina inferior izquierda no tendrá redondeo.
+
+También es posible utilizar valores porcentuales para lograr bordes redondeados relativos al tamaño del elemento:
+
+```css
+/* Redondear todas las esquinas en un 50% del tamaño del elemento */
+.elemento {
+  border-radius: 50%;
+}
+```
+
+Además, la propiedad `border-radius` puede tomar dos valores para especificar el redondeo vertical y horizontal por separado:
+
+```css
+/* Redondear horizontalmente con 10px y verticalmente con 20px */
+.elemento {
+  border-radius: 10px 20px;
+}
+```
+
+En versiones más recientes de CSS, también se puede utilizar la propiedad `border-radius` para lograr el redondeo de una forma elíptica, especificando dos valores para el radio en los ejes X e Y:
+
+```css
+/* Redondear horizontalmente con 20px y verticalmente con 10px */
+.elemento {
+  border-radius: 20px 10px;
+}
+```
+
+Los bordes redondeados son una herramienta útil para mejorar el diseño y la apariencia de los elementos en una página web, permitiendo suavizar las esquinas y agregar un toque más amigable y moderno al diseño.

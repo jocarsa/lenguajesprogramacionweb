@@ -1,0 +1,26 @@
+En CSS, la capacidad de agregar múltiples imágenes de fondo a un mismo elemento HTML se conoce como "múltiples imágenes de fondo" o "capas de fondo". Esta funcionalidad te permite superponer varias imágenes de fondo en un elemento, lo que es especialmente útil cuando deseas crear diseños complejos o efectos visuales más elaborados.
+
+La sintaxis para agregar múltiples imágenes de fondo es muy similar a la de una sola imagen de fondo, pero en este caso, se separan las distintas imágenes mediante comas. La propiedad que se utiliza para agregar múltiples imágenes de fondo es `background-image`.
+
+```css
+selector {
+  background-image: url('imagen1.jpg'), url('imagen2.jpg'), url('imagen3.jpg');
+}
+```
+
+En el ejemplo anterior, hemos agregado tres imágenes de fondo a través de la propiedad `background-image`. Cada imagen se especifica con su propia URL separada por comas.
+
+El orden de las imágenes en la lista determina cómo se superpondrán en el elemento. La primera imagen en la lista se mostrará en la parte superior, seguida por la segunda, y así sucesivamente. Si las imágenes tienen transparencias, las capas inferiores serán visibles a través de las capas superiores, creando efectos de superposición.
+
+Es importante mencionar que cada imagen de fondo se posicionará de forma predeterminada en la esquina superior izquierda del elemento. Si se agregan múltiples imágenes de fondo, puedes ajustar la posición de cada una de ellas utilizando la propiedad `background-position` seguida por las coordenadas o valores de posición adecuados.
+
+```css
+selector {
+  background-image: url('imagen1.jpg'), url('imagen2.jpg'), url('imagen3.jpg');
+  background-position: center top, left bottom, right center;
+}
+```
+
+En el ejemplo anterior, hemos especificado las posiciones para las tres imágenes de fondo. La primera imagen estará centrada verticalmente y alineada en la parte superior horizontalmente, la segunda estará alineada en la esquina inferior izquierda, y la tercera estará centrada verticalmente y alineada a la derecha.
+
+El uso de múltiples imágenes de fondo ofrece una gran flexibilidad para crear diseños más complejos y atractivos en una página web. Puedes experimentar con diferentes combinaciones de imágenes, posiciones y tamaños para lograr el efecto visual deseado. Esta característica es ampliamente compatible con los navegadores modernos y brinda a los diseñadores más opciones para lograr la apariencia deseada en sus sitios web.

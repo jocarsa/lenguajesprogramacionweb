@@ -1,0 +1,28 @@
+En el código se han agregado dos nuevas reglas de estilo para animar el logo y las imágenes en los artículos. A continuación, explicaré lo nuevo que aparece:
+
+1. Animación del logo (`#logo img`):
+```css
+#logo img {
+    filter: hue-rotate(300deg);
+    animation: cambiacolor 100s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes cambiacolor {
+    0% { filter: hue-rotate(0deg); }
+    100% { filter: hue-rotate(360deg); }
+}
+```
+
+En esta regla de estilo, se aplican dos efectos a la imagen del logo dentro del elemento `#logo`. Primero, se aplica el filtro `hue-rotate(300deg)` para cambiar el tono de color de la imagen en 300 grados, lo que resultará en un cambio cíclico de color.
+
+Luego, se crea una animación llamada `cambiacolor` utilizando `@keyframes`. Esta animación especifica que el filtro de rotación de tono (`hue-rotate`) de la imagen variará desde 0 grados hasta 360 grados a lo largo del tiempo (`100s` indica 100 segundos). La animación se repetirá infinitamente (`animation-iteration-count: infinite`) y se ejecutará de manera lineal sin aceleraciones o desaceleraciones (`animation-timing-function: linear`). Esto generará un efecto de cambio de color suave y continuo en el logo.
+
+2. Filtro de escala de grises para las imágenes de los artículos (`article img`):
+```css
+article img {
+    filter: grayscale(0.5);
+}
+```
+Esta regla de estilo aplica el filtro `grayscale(0.5)` a las imágenes que se encuentran dentro de los elementos `article`, lo que resulta en un efecto de escala de grises que reduce el brillo de las imágenes al 50%. Las imágenes de los artículos aparecerán en tonos de gris en lugar de sus colores originales, lo que puede dar un efecto visual interesante y destacar el contenido del artículo.

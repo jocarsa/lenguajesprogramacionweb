@@ -1,0 +1,35 @@
+Claro, con gusto te explico acerca de las etiquetas `<tr>` y `<td>` en HTML.
+
+1. Etiqueta `<tr>`:
+La etiqueta `<tr>` se utiliza en HTML para representar una fila (row) en una tabla. Una fila puede contener celdas de datos (`<td>`) o celdas de encabezado (`<th>`) que pertenecen a esa fila. Es importante recordar que las etiquetas `<tr>` solo deben colocarse dentro de una etiqueta `<table>` que define la tabla.
+
+Ejemplo de una fila con celdas de datos:
+```html
+<tr>
+  <td>Dato 1</td>
+  <td>Dato 2</td>
+  <td>Dato 3</td>
+</tr>
+```
+
+Ejemplo de una fila con celdas de encabezado:
+```html
+<tr>
+  <th>Nombre</th>
+  <th>Edad</th>
+  <th>Correo electrónico</th>
+</tr>
+```
+
+2. Etiqueta `<td>`:
+La etiqueta `<td>` se utiliza en HTML para representar una celda de datos (data cell) en una tabla. Esta etiqueta debe colocarse dentro de una etiqueta `<tr>` para indicar que pertenece a una fila específica. Cada celda de datos contiene la información que se mostrará en la tabla.
+
+Ejemplo de una celda de datos en una tabla:
+```html
+<tr>
+  <td>Dato 1</td>
+  <td>Dato 2</td>
+</tr>
+```
+
+Es importante mencionar que las etiquetas `<tr>` y `<td>` son fundamentales para crear tablas en HTML. Las filas representadas por `<tr>` contienen celdas de datos representadas por `<td>` o celdas de encabezado representadas por `<th>`. Con estas etiquetas, podemos organizar y presentar datos de manera tabulada de forma estructurada y ordenada. Sin embargo, siempre se debe tener en cuenta que se debe utilizar de manera adecuada y responsable, ya que para diseños más complejos se recomienda utilizar otras técnicas como Flexbox o Grid.

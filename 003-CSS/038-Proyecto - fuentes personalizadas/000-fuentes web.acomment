@@ -1,0 +1,43 @@
+Las fuentes web en CSS se refieren a la capacidad de utilizar fuentes personalizadas y no estándar en la presentación de texto en páginas web. Antes del uso de fuentes web, los diseñadores web se limitaban a utilizar solo las fuentes instaladas en los sistemas operativos de los usuarios, lo que limitaba la creatividad y el aspecto visual de las páginas.
+
+Con las fuentes web en CSS, los diseñadores pueden utilizar una amplia variedad de fuentes personalizadas que no están instaladas en los sistemas de los usuarios. Esto se logra mediante la incorporación de fuentes externas en la hoja de estilos CSS y luego aplicándolas a los elementos de texto en el contenido HTML.
+
+Existen dos métodos principales para utilizar fuentes web en CSS:
+
+1. **Fuentes web alojadas localmente**: En este método, el diseñador web debe tener acceso a los archivos de fuente (por ejemplo, archivos .ttf o .otf) y cargarlos en el servidor web. Luego, se pueden utilizar las fuentes personalizadas en la hoja de estilos CSS utilizando la regla `@font-face`.
+
+Ejemplo:
+
+```css
+@font-face {
+  font-family: 'MiFuentePersonalizada';
+  src: url('ruta/a/mi_fuente_personalizada.ttf') format('truetype');
+}
+
+body {
+  font-family: 'MiFuentePersonalizada', sans-serif;
+}
+```
+
+2. **Fuentes web alojadas remotamente**: En este método, se utiliza una fuente personalizada alojada en un servidor externo o una biblioteca de fuentes web, como Google Fonts. Estas bibliotecas de fuentes ofrecen una amplia selección de fuentes web de alta calidad que se pueden agregar fácilmente a un sitio web.
+
+Ejemplo:
+
+```html
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+```
+
+```css
+body {
+  font-family: 'Roboto', sans-serif;
+}
+```
+
+Al usar fuentes web en CSS, es fundamental tener en cuenta algunas consideraciones:
+
+- Asegurarse de que se tienen los derechos de uso adecuados para las fuentes web que se pretenden utilizar.
+- Proporcionar fuentes alternativas en caso de que la fuente web no se pueda cargar correctamente en el navegador del usuario.
+- Evitar el uso excesivo de diferentes fuentes, ya que esto puede afectar la coherencia visual y la legibilidad del sitio web.
+- Verificar la compatibilidad con navegadores y dispositivos para asegurarse de que las fuentes se muestren correctamente en diferentes plataformas.
+
+Las fuentes web en CSS han permitido una mayor libertad creativa y una personalización más avanzada en el diseño de páginas web, lo que ha llevado a una experiencia visual más atractiva y única para los visitantes del sitio.

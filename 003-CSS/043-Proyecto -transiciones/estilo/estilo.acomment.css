@@ -1,0 +1,8 @@
+En el código se ha agregado una nueva regla de estilo para la transición suave (`transition`) de los enlaces (`<a>`) del menú de navegación. A continuación, explicaré lo nuevo que aparece:
+
+```css
+nav ul li a{
+    transition: all 1s;
+}
+```
+Esta regla de estilo aplica una transición suave (`transition`) con una duración de 1 segundo a todos los cambios de propiedades (`all`) que afecten a los enlaces (`<a>`) dentro de los elementos de la lista (`li`) del menú de navegación. En otras palabras, cuando el cursor del mouse pase sobre los enlaces y se produzcan cambios de color de fondo, color del texto u otras propiedades, la transición se realizará de manera suave durante 1 segundo, lo que dará una apariencia más elegante y fluida a la interacción del usuario. Esta técnica ayuda a mejorar la experiencia del usuario al navegar por el sitio web.

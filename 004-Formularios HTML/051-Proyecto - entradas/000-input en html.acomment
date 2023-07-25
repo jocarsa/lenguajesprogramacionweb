@@ -1,0 +1,35 @@
+La etiqueta `<input>` en HTML es un elemento versátil y fundamental que se utiliza para crear campos de entrada de datos en formularios web. Permite a los usuarios ingresar diferentes tipos de datos, como texto, números, fechas, opciones seleccionadas, archivos y más.
+
+El elemento `<input>` puede tener varios atributos, y el tipo de atributo determina qué tipo de campo de entrada se creará. Algunos de los tipos más comunes son:
+
+1. `type="text"`: Crea un campo de entrada de texto de una sola línea donde los usuarios pueden ingresar texto.
+
+2. `type="password"`: Crea un campo de entrada de contraseña donde los caracteres ingresados se ocultan con puntos o asteriscos para proteger la privacidad del usuario.
+
+3. `type="number"`: Crea un campo de entrada para números, permitiendo solo valores numéricos.
+
+4. `type="date"`: Crea un campo de entrada para seleccionar una fecha.
+
+5. `type="checkbox"`: Crea una casilla de verificación que permite a los usuarios seleccionar una o varias opciones de una lista de verificación.
+
+6. `type="radio"`: Crea un botón de opción que permite a los usuarios seleccionar una opción exclusiva de una lista de opciones.
+
+7. `type="file"`: Crea un campo de entrada para cargar archivos desde el dispositivo del usuario.
+
+8. `type="submit"`: Crea un botón de envío que envía los datos del formulario al servidor.
+
+9. `type="reset"`: Crea un botón de reinicio que restablece los valores del formulario a sus valores predeterminados.
+
+El atributo `name` se utiliza para asignar un nombre al campo de entrada, que se utiliza para identificar el dato ingresado por el usuario cuando se envía el formulario al servidor.
+
+La estructura básica de la etiqueta `<input>` es la siguiente:
+
+```html
+<input type="tipo_de_campo" name="nombre_del_campo" value="valor_inicial">
+```
+
+El atributo `value` es opcional y se utiliza para especificar un valor predeterminado para el campo de entrada. Si se proporciona un valor inicial, se mostrará en el campo cuando la página se cargue.
+
+Es importante tener en cuenta que algunos tipos de campos de entrada requieren atributos adicionales para definir sus características específicas. Por ejemplo, para el tipo `type="checkbox"` y `type="radio"`, el atributo `checked` se utiliza para marcar el campo como seleccionado por defecto.
+
+En resumen, la etiqueta `<input>` en HTML es esencial para crear campos interactivos en formularios web, y su versatilidad y diferentes tipos permiten a los desarrolladores web recopilar datos de los usuarios de manera eficiente y segura.

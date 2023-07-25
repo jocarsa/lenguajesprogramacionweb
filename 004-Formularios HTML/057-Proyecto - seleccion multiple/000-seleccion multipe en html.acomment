@@ -1,0 +1,21 @@
+La etiqueta `<input>` con el tipo de atributo "checkbox" en HTML se utiliza para crear casillas de verificación en un formulario web. Las casillas de verificación permiten a los usuarios seleccionar una o varias opciones de una lista de opciones relacionadas. Cada casilla de verificación representa una opción y tiene dos estados posibles: marcada (checked) o desmarcada (unchecked).
+
+La estructura básica de la etiqueta `<input>` con el tipo "checkbox" es la siguiente:
+
+```html
+<input type="checkbox" name="opcion" id="opcion1" value="valor">
+<label for="opcion1">Opción 1</label>
+```
+
+Explicación de los atributos:
+
+- `type="checkbox"`: Este atributo especifica que se debe crear una casilla de verificación.
+- `name`: El atributo `name` se utiliza para asociar la casilla de verificación con una variable o clave en el formulario. Cuando el formulario se envía al servidor, el valor de esta casilla de verificación seleccionada se enviará al servidor con el nombre especificado en este atributo.
+- `id`: El atributo `id` se utiliza para asociar la casilla de verificación con su etiqueta `<label>`. Cuando se hace clic en la etiqueta, la casilla de verificación también se marcará o desmarcará automáticamente. El valor del atributo `id` debe ser igual al valor del atributo `for` en la etiqueta `<label>`.
+- `value`: Este atributo se utiliza para especificar el valor que se enviará al servidor si la casilla de verificación está marcada y el formulario se envía. Si la casilla de verificación no está marcada, no se enviará ningún valor correspondiente al servidor.
+
+La etiqueta `<label>` se usa como etiqueta descriptiva para la casilla de verificación, lo que significa que proporciona una descripción del propósito de la casilla de verificación. El atributo `for` en la etiqueta `<label>` se establece en el mismo valor que el atributo `id` de la casilla de verificación para que estén vinculados. Esto permite hacer clic en la etiqueta para seleccionar o deseleccionar la casilla de verificación.
+
+Cuando se selecciona una casilla de verificación, se envía su valor asociado al servidor junto con el resto del formulario. Si la casilla no está seleccionada, su valor no se envía. En el servidor, puedes procesar los datos enviados para determinar qué opciones fueron seleccionadas por el usuario.
+
+Las casillas de verificación son útiles cuando tienes una lista de opciones múltiples y deseas permitir que los usuarios elijan una o varias de ellas. Por ejemplo, puedes usar casillas de verificación para permitir que los usuarios seleccionen sus intereses o preferencias en un formulario de registro o encuesta en línea.
